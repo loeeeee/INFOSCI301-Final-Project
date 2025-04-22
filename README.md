@@ -1,6 +1,6 @@
 # Canadian Threatened Species Survival Trend Visualization
 
-INFOSCI 301: Final Project
+INFOSCI 301 (Spring 2025): Final Project, Course Supervised by Prof. Luyao Zhang
 
 ## Data Source
 
