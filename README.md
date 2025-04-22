@@ -6,6 +6,28 @@ INFOSCI 301 (Spring 2025): Final Project, Course Supervised by Prof. Luyao Zhang
 
 ![Innovation Flowchart](./static/innovation_flowchart.png)
 
+## Mock Visualization Start
+```bash
+# Create and navigate to project directory
+mkdir endangered_species_viz
+cd endangered_species_viz
+
+# Create virtual environment
+python -m venv .venv
+
+# Activate virtual environment
+source .venv/bin/activate
+
+# Install required packages
+pip install -r requirements.txt
+
+# Activate venv
+source .venv/bin/activate
+
+# Run the Streamlit app
+streamlit run app.py
+```
+
 ## Overview
 
 **Primary Research Question:**
