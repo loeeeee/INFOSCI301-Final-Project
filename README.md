@@ -2,6 +2,10 @@
 
 INFOSCI 301 (Spring 2025): Final Project, Course Supervised by Prof. Luyao Zhang
 
+## Innovation Flowchart
+
+![Innovation Flowchart](./static/innovation_flowchart.png)
+
 ## Data Source
 
 ### CAN-SAR
