@@ -88,7 +88,7 @@ This Streamlit application allows users to explore the integrated data, view spe
 
 <!-- *   `/data`: Contains the raw or processed datasets (if included directly). -->
 <!-- *   `/notebooks` or `/scripts`: Contains Jupyter notebooks or Python scripts for data cleaning, integration, and analysis. -->
-<!-- *   `/app`: Contains the Streamlit application code. -->
+*   `/mock_visualization`: Contains the Streamlit application code.
 *   `/static`: contains demo images
 *   `README.md`: This file.
 <!-- *   `requirements.txt`: List of Python dependencies. -->
