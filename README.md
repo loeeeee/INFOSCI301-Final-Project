@@ -74,7 +74,7 @@ This Streamlit application allows users to explore the integrated data, view spe
 
 ## 🤝 Team Contributions
 
-*   **Jensen Huang:** Led the design and implementation of data visualizations, prototype figures, technique selection, and contributed to the literature review.
+*   **Jiesen Huang:** Led the design and implementation of data visualizations, prototype figures, technique selection, and contributed to the literature review.
 *   **Cody Qin:** Focused on data sourcing, cleaning, preprocessing, integration (scripting), tool selection, and setting up the GitHub repository for reproducibility.
 *   **Loe Bi:** Led the writing and editing of the research proposal, structured the document, refined research questions, created the innovation flowchart, and ensured alignment with project goals and audience.
 
