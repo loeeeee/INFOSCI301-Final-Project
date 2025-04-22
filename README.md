@@ -1,4 +1,4 @@
-# 
+# Canadian Threatened Species Survival Trend Visualization
 
 INFOSCI 301: Final Project
 
@@ -6,7 +6,7 @@ INFOSCI 301: Final Project
 
 Jensen Huang: Dataset searching
 
-Cody Qin:
+Cody Qin: 
 
 Loe Bi: Dataset evaluation
 
