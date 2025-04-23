@@ -2,9 +2,14 @@
 
 INFOSCI 301 (Spring 2025): Final Project, Course Supervised by Prof. Luyao Zhang
 
-## Innovation Flowchart
+
+<details>
+<summary>Innovation🌟 Flowchart</summary>
 
 ![Innovation Flowchart](./static/innovation_flowchart.png)
+
+<br>
+</details>
 
 ## Mock Visualization Start
 ```bash
