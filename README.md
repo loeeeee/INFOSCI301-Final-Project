@@ -1,8 +1,10 @@
-# Canadian Species at Risk: Integrating Population Trends and Conservation Status 🍁📊
+# ![Project Icon](./app/public/logo.ico) Canadian Species at Risk: Integrating Population Trends and Conservation Status 🍁📊
 
-![Project Icon](./app/public/logo.ico) INFOSCI 301 (Spring 2025): Final Project, Course Supervised by Prof. Luyao Zhang
+INFOSCI 301 (Spring 2025): Final Project, Course Supervised by Prof. Luyao Zhang
 
 [Demo Web Page](https://guthib.lbi.icu/)
+
+![Fancy Logo](./static/logo.png)
 
 ## Acknowledgements
 
