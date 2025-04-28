@@ -1,0 +1,236 @@
+[
+  {
+    "province": "AB",
+    "provinceName": "Alberta",
+    "totalSpecies": 49,
+    "representativeSpecies": [
+      "black swift (Cypseloides niger)",
+      "bull trout saskatchewan-nelson rivers populations (Salvelinus confluentus)",
+      "bull trout western arctic populations (Salvelinus confluentus)",
+      "common nighthawk (Chordeiles minor)",
+      "evening grosbeak (Coccothraustes vespertinus)"
+    ],
+    "dominantActions": [
+      "NE"
+    ],
+    "endangered": 14,
+    "special_concern": 16,
+    "threatened": 21
+  },
+  {
+    "province": "BC",
+    "provinceName": "British Columbia",
+    "totalSpecies": 91,
+    "representativeSpecies": [
+      "basking shark pacific population (Cetorhinus maximus)",
+      "black swift (Cypseloides niger)",
+      "bull trout south coast british columbia populations (Salvelinus confluentus)",
+      "bull trout western arctic populations (Salvelinus confluentus)",
+      "cassin's auklet (Ptychoramphus aleuticus)"
+    ],
+    "dominantActions": [
+      "NE"
+    ],
+    "endangered": 32,
+    "special_concern": 43,
+    "threatened": 23
+  },
+  {
+    "province": "MB",
+    "provinceName": "Manitoba",
+    "totalSpecies": 44,
+    "representativeSpecies": [
+      "carmine shiner (Notropis percobromus)",
+      "chimney swift (Chaetura pelagica)",
+      "common nighthawk (Chordeiles minor)",
+      "evening grosbeak (Coccothraustes vespertinus)",
+      "grizzly bear western population (Ursus arctos)"
+    ],
+    "dominantActions": [
+      "NE"
+    ],
+    "endangered": 7,
+    "special_concern": 18,
+    "threatened": 25
+  },
+  {
+    "province": "NB",
+    "provinceName": "New Brunswick",
+    "totalSpecies": 32,
+    "representativeSpecies": [
+      "chimney swift (Chaetura pelagica)",
+      "common nighthawk (Chordeiles minor)",
+      "evening grosbeak (Coccothraustes vespertinus)",
+      "olive-sided flycatcher (Contopus cooperi)",
+      "peregrine falcon anatum/tundrius (Falco peregrinus anatum/tundrius)"
+    ],
+    "dominantActions": [
+      "NE"
+    ],
+    "endangered": 10,
+    "special_concern": 10,
+    "threatened": 16
+  },
+  {
+    "province": "NL",
+    "provinceName": "Newfoundland and Labrador",
+    "totalSpecies": 24,
+    "representativeSpecies": [
+      "common nighthawk (Chordeiles minor)",
+      "evening grosbeak (Coccothraustes vespertinus)",
+      "olive-sided flycatcher (Contopus cooperi)",
+      "peregrine falcon anatum/tundrius (Falco peregrinus anatum/tundrius)",
+      "polar bear (Ursus maritimus)"
+    ],
+    "dominantActions": [
+      "NE"
+    ],
+    "endangered": 7,
+    "special_concern": 11,
+    "threatened": 9
+  },
+  {
+    "province": "NS",
+    "provinceName": "Nova Scotia",
+    "totalSpecies": 32,
+    "representativeSpecies": [
+      "chimney swift (Chaetura pelagica)",
+      "common nighthawk (Chordeiles minor)",
+      "evening grosbeak (Coccothraustes vespertinus)",
+      "olive-sided flycatcher (Contopus cooperi)",
+      "peregrine falcon anatum/tundrius (Falco peregrinus anatum/tundrius)"
+    ],
+    "dominantActions": [
+      "NE"
+    ],
+    "endangered": 9,
+    "special_concern": 11,
+    "threatened": 15
+  },
+  {
+    "province": "NT",
+    "provinceName": "Northwest Territories",
+    "totalSpecies": 32,
+    "representativeSpecies": [
+      "bull trout western arctic populations (Salvelinus confluentus)",
+      "caribou dolphin and union population (Rangifer tarandus)",
+      "common nighthawk (Chordeiles minor)",
+      "evening grosbeak (Coccothraustes vespertinus)",
+      "grey whale northern pacific migratory population (Eschrichtius robustus)"
+    ],
+    "dominantActions": [
+      "NE"
+    ],
+    "endangered": 7,
+    "special_concern": 18,
+    "threatened": 10
+  },
+  {
+    "province": "NU",
+    "provinceName": "Nunavut",
+    "totalSpecies": 20,
+    "representativeSpecies": [
+      "caribou dolphin and union population (Rangifer tarandus)",
+      "common nighthawk (Chordeiles minor)",
+      "grizzly bear western population (Ursus arctos)",
+      "olive-sided flycatcher (Contopus cooperi)",
+      "peregrine falcon anatum/tundrius (Falco peregrinus anatum/tundrius)"
+    ],
+    "dominantActions": [
+      "NE"
+    ],
+    "endangered": 4,
+    "special_concern": 13,
+    "threatened": 6
+  },
+  {
+    "province": "ON",
+    "provinceName": "Ontario",
+    "totalSpecies": 72,
+    "representativeSpecies": [
+      "black redhorse (Moxostoma duquesnei)",
+      "chimney swift (Chaetura pelagica)",
+      "common nighthawk (Chordeiles minor)",
+      "cutlip minnow (Exoglossum maxillingua)",
+      "evening grosbeak (Coccothraustes vespertinus)"
+    ],
+    "dominantActions": [
+      "NE"
+    ],
+    "endangered": 22,
+    "special_concern": 32,
+    "threatened": 23
+  },
+  {
+    "province": "PE",
+    "provinceName": "Prince Edward Island",
+    "totalSpecies": 17,
+    "representativeSpecies": [
+      "common nighthawk (Chordeiles minor)",
+      "evening grosbeak (Coccothraustes vespertinus)",
+      "olive-sided flycatcher (Contopus cooperi)",
+      "red-necked phalarope (Phalaropus lobatus)",
+      "bank swallow (Riparia riparia)"
+    ],
+    "dominantActions": [
+      "NE"
+    ],
+    "endangered": 5,
+    "special_concern": 6,
+    "threatened": 8
+  },
+  {
+    "province": "QC",
+    "provinceName": "Quebec",
+    "totalSpecies": 57,
+    "representativeSpecies": [
+      "chimney swift (Chaetura pelagica)",
+      "common nighthawk (Chordeiles minor)",
+      "cutlip minnow (Exoglossum maxillingua)",
+      "evening grosbeak (Coccothraustes vespertinus)",
+      "harbour seal lacs des loups marins subspecies (Phoca vitulina mellonae)"
+    ],
+    "dominantActions": [
+      "NE"
+    ],
+    "endangered": 17,
+    "special_concern": 26,
+    "threatened": 20
+  },
+  {
+    "province": "SK",
+    "provinceName": "Saskatchewan",
+    "totalSpecies": 47,
+    "representativeSpecies": [
+      "chimney swift (Chaetura pelagica)",
+      "common nighthawk (Chordeiles minor)",
+      "evening grosbeak (Coccothraustes vespertinus)",
+      "grizzly bear western population (Ursus arctos)",
+      "lark bunting (Calamospiza melanocorys)"
+    ],
+    "dominantActions": [
+      "NE"
+    ],
+    "endangered": 11,
+    "special_concern": 18,
+    "threatened": 22
+  },
+  {
+    "province": "YT",
+    "provinceName": "Yukon",
+    "totalSpecies": 25,
+    "representativeSpecies": [
+      "bull trout western arctic populations (Salvelinus confluentus)",
+      "common nighthawk (Chordeiles minor)",
+      "evening grosbeak (Coccothraustes vespertinus)",
+      "grey whale northern pacific migratory population (Eschrichtius robustus)",
+      "grizzly bear western population (Ursus arctos)"
+    ],
+    "dominantActions": [
+      "NE"
+    ],
+    "endangered": 3,
+    "special_concern": 15,
+    "threatened": 10
+  }
+]
