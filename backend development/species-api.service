@@ -1,0 +1,14 @@
+[Unit]
+Description=Canadian Species Data Visualization API
+After=network.target postgresql.service
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/species-api
+ExecStart=/home/ubuntu/species-api/venv/bin/gunicorn --workers 3 --bind 0.0.0.0:5000 wsgi:app
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
