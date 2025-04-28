@@ -1,6 +1,5 @@
-import React, { useMemo } from 'react';
+import React from 'react';
 import LineChart from '../components/charts/LineChart';
-import StackedAreaChart from '../components/charts/BarChart';
 import PageWrapper from '../components/layout/PageWrapper';
 import { useData } from '../context/DataContext';
 
