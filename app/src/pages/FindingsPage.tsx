@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React from 'react';
 import PieChart from '../components/charts/PieChart';
 import BarChart from '../components/charts/BarChart';
 import PageWrapper from '../components/layout/PageWrapper';

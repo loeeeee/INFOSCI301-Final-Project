@@ -1,7 +1,6 @@
-import React, { useState, useMemo, useCallback } from 'react';
+import React, { useState, useCallback } from 'react';
 import LineChart from '../components/charts/LineChart';
 import BarChart from '../components/charts/BarChart';
-import ComposedChart from '../components/charts/ComposedChart';
 import PageWrapper from '../components/layout/PageWrapper';
 import { useData } from '../context/DataContext';
 
