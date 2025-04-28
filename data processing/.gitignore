@@ -1,0 +1,24 @@
+# Environment variables and virtual environments
+.env        # Ignore local environment variables file
+.venv       # Ignore Python virtual environment folder
+env/        # Alternative virtual environment folder
+venv/       # Alternative virtual environment folder
+
+# System files
+.DS_Store   # macOS system file
+Thumbs.db   # Windows thumbnail cache files
+*.swp       # Vim swap files
+*~          # Temporary files
+
+# Python specific
+__pycache__/
+*.py[cod]
+*.so
+dist/
+build/
+*.egg-info/
+
+# IDE settings
+.idea/      # PyCharm
+.vscode/    # Visual Studio Code
+*.sublime-* # Sublime Text

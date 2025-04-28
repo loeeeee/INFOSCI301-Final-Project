@@ -172,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# System files
+.DS_Store   # macOS system file
+Thumbs.db   # Windows thumbnail cache files
+*.swp       # Vim swap files
+*~          # Temporary files
