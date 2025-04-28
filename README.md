@@ -32,6 +32,48 @@ source .venv/bin/activate
 # Run the Streamlit app
 streamlit run app.py
 ```
+## Data Processing Replication (Optional)
+
+1.  **Prerequisites:**
+    * Python 3.7+ installed.
+    * The `CAN-SAR_database.csv` file in your project directory.
+
+2.  **Create & Activate Virtual Environment:**
+    ```bash
+    # Create
+    python -m venv .venv
+    # Activate (Windows CMD/PS)
+    .\.venv\Scripts\activate
+    # Activate (macOS/Linux)
+    source .venv/bin/activate
+    ```
+
+3.  **Install Packages:**
+    * Create `requirements.txt` with:
+        ```text
+        pandas
+        openai
+        python-dotenv
+        httpx
+        ```
+    * Install:
+        ```bash
+        pip install -r requirements.txt
+        ```
+
+4.  **Set Up API Key:**
+    * Create a `.env` file in the project directory.
+    * Add your OpenRouter key:
+        ```
+        OPENROUTER_API_KEY='your-openrouter-key-here'
+        ```
+
+5.  **Run the Script:**
+	* Ensure your virtual environment is active.
+	* Run the script:
+		```bash
+		python data_process.py
+		```
 
 ## Overview
 
