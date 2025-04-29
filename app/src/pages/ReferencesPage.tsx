@@ -71,7 +71,8 @@ const ReferencesPage: React.FC = () => {
           <li>Environment and Climate Change Canada (ECCC) for the Canadian Species Index data</li>
           <li>The Committee on the Status of Endangered Wildlife in Canada (COSEWIC) for species assessments</li>
           <li>The Species at Risk Public Registry for conservation status information</li>
-          <li>The World Wildlife Fund (WWF) and Zoological Society of London (ZSL) for the methodology behind the Living Planet Index</li>
+          <li>Professor Luyao (Sunshine) Zhang's invaluable guidance during the INFOSCI 301 course at Duke Kunshan University.</li>
+          <li>Professors David Schaaf and Dongping Liu for their inspiring guest lectures</li>
           <li>All researchers and field workers who collected the underlying population data</li>
         </ul>
       </div>
