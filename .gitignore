@@ -27,3 +27,5 @@ dist-ssr
 .env/
 venv/
 .venv/
+
+.DS_Store
