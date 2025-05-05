@@ -24,6 +24,7 @@ const Navigation: React.FC = () => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5 mr-2"
+            aria-hidden="true" // Hide decorative icon from screen readers
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -48,6 +49,7 @@ const Navigation: React.FC = () => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5 ml-2"
+            aria-hidden="true" // Hide decorative icon from screen readers
             viewBox="0 0 20 20"
             fill="currentColor"
           >

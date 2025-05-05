@@ -8,7 +8,7 @@ const Header: React.FC = () => {
         <Link to="/" className="text-2xl font-bold">
           Canadian Species Data Visualization
         </Link>
-        <nav>
+        <nav aria-label="Main navigation">
           <ul className="flex space-x-6">
             <li>
               <Link to="/" className="hover:text-blue-200">

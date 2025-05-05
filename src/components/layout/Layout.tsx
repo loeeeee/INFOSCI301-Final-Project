@@ -11,8 +11,12 @@ interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="min-h-screen flex flex-col">
+      {/* Skip to main content link for accessibility */}
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-50 focus:bg-white focus:p-2 focus:border focus:border-gray-300">
+        Skip to main content
+      </a>
       <Header />
-      <main className="flex-grow container mx-auto px-4 py-6">
+      <main id="main-content" className="flex-grow container mx-auto px-4 py-6">
         {children || <Outlet />}
         <Navigation />
       </main>

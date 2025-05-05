@@ -17,6 +17,25 @@ interface DataPoint {
   color?: string;
 }
 
+// A colorblind-friendly categorical color palette (Tol Vibrant)
+const COLORBLIND_FRIENDLY_CATEGORICAL_PALETTE = [
+  "#0077BB", // Blue
+  "#33BBEE", // Cyan
+  "#009988", // Teal
+  "#EE7733", // Orange
+  "#CC3311", // Red
+  "#EE3377", // Magenta
+  "#BBCC33", // Lime
+  "#AAAA00", // Yellow
+  "#77AADD", // Light blue
+  "#99DDFF", // Light cyan
+  "#44AA99", // Mint
+  "#DDCC77", // Gold
+  "#88CCEE", // Light teal
+  "#AA4499", // Purple
+  "#FFAABB", // Pink
+];
+
 interface PieChartProps {
   data: DataPoint[];
   title?: string;
@@ -100,7 +119,7 @@ const renderActiveShape = (props: any) => {
 const PieChart: React.FC<PieChartProps> = ({
   data,
   title,
-  colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#A28BF9', '#FF6B6B', '#4ECDC4'],
+  colors = COLORBLIND_FRIENDLY_CATEGORICAL_PALETTE,
   dataKey = 'value',
   nameKey = 'name',
   innerRadius = 0,

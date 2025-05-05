@@ -24,12 +24,24 @@ interface LineChartProps {
     color: string;
     name: string;
     strokeWidth?: number;
+    lineStyle?: string; // Add optional line style property
   }[];
+
   xAxisDataKey?: string;
   yAxisLabel?: string;
   title?: string;
   yAxisDomain?: [number, number];
 }
+
+// Predefined dash array patterns for accessibility
+const DASH_ARRAY_PATTERNS = [
+  '0',       // Solid line
+  '5 5',     // Dashed line
+  '5 1 1',   // Dotted line
+  '5 5 1 5', // Dash-dot line
+  '10 5',    // Longer dash
+  '1 5',     // More dots
+];
 
 // Custom tooltip component
 const CustomTooltip = ({
@@ -51,6 +63,25 @@ const CustomTooltip = ({
   }
   return null;
 };
+
+// A colorblind-friendly categorical color palette (Tol Vibrant)
+const COLORBLIND_FRIENDLY_CATEGORICAL_PALETTE = [
+  "#0077BB", // Blue
+  "#33BBEE", // Cyan
+  "#009988", // Teal
+  "#EE7733", // Orange
+  "#CC3311", // Red
+  "#EE3377", // Magenta
+  "#BBCC33", // Lime
+  "#AAAA00", // Yellow
+  "#77AADD", // Light blue
+  "#99DDFF", // Light cyan
+  "#44AA99", // Mint
+  "#DDCC77", // Gold
+  "#88CCEE", // Light teal
+  "#AA4499", // Purple
+  "#FFAABB", // Pink
+];
 
 const LineChart: React.FC<LineChartProps> = ({
   data,
@@ -109,6 +140,7 @@ const LineChart: React.FC<LineChartProps> = ({
               name={line.name}
               stroke={line.color}
               strokeWidth={line.strokeWidth || 2}
+              strokeDasharray={line.lineStyle} // Apply line style
               dot={{ r: 3, strokeWidth: 1 }}
               activeDot={{ r: 5, strokeWidth: 1 }}
             />

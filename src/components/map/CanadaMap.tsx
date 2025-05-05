@@ -38,6 +38,20 @@ const COLOR_SCALE = [
   "#005824"
 ];
 
+// A colorblind-friendly sequential color scale (Viridis-like)
+const COLORBLIND_FRIENDLY_COLOR_SCALE = [
+  "#fde725",
+  "#b5de2b",
+  "#6dcd59",
+  "#35b779",
+  "#1f9e89",
+  "#26828e",
+  "#31688e",
+  "#3e4e8c",
+  "#482878",
+  "#440154"
+];
+
 interface CanadaMapProps {
   onProvinceClick?: (province: string, provinceName: string) => void;
   width?: number;
@@ -58,7 +72,7 @@ const CanadaMap: React.FC<CanadaMapProps> = ({
 
   // Function to determine province color based on species count
   const getProvinceColor = (provinceCode: string) => {
-    if (!provinces.length) return COLOR_SCALE[0];
+    if (!provinces.length) return COLORBLIND_FRIENDLY_COLOR_SCALE[0];
     
     const provinceData = provinces.find(p => p.province === provinceCode);
     
@@ -77,11 +91,11 @@ const CanadaMap: React.FC<CanadaMapProps> = ({
     
     // Convert normalized value to color index
     const colorIndex = Math.min(
-      Math.floor(normalizedCount * COLOR_SCALE.length),
-      COLOR_SCALE.length - 1
+      Math.floor(normalizedCount * COLORBLIND_FRIENDLY_COLOR_SCALE.length),
+      COLORBLIND_FRIENDLY_COLOR_SCALE.length - 1
     );
     
-    return COLOR_SCALE[colorIndex];
+    return COLORBLIND_FRIENDLY_COLOR_SCALE[colorIndex];
   };
 
   // Function to extract province code from geography properties
@@ -245,7 +259,7 @@ const CanadaMap: React.FC<CanadaMapProps> = ({
       <div className="flex items-center justify-center mt-2 relative z-10">
         <div className="flex space-x-1 items-center text-xs bg-white bg-opacity-75 p-1 rounded">
           <div className="mr-1">Species Density:</div>
-          {COLOR_SCALE.map((color, i) => (
+          {COLORBLIND_FRIENDLY_COLOR_SCALE.map((color, i) => (
             <div 
               key={i} 
               className="w-6 h-3"
