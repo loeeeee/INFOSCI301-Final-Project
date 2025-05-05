@@ -33,6 +33,11 @@ interface LineChartProps {
   yAxisDomain?: [number, number];
 }
 
+// Helper function to get a line style pattern by index
+const getLineStyle = (index: number): string => {
+  return DASH_ARRAY_PATTERNS[index % DASH_ARRAY_PATTERNS.length];
+};
+
 // Predefined dash array patterns for accessibility
 const DASH_ARRAY_PATTERNS = [
   '0',       // Solid line
@@ -83,6 +88,11 @@ const COLORBLIND_FRIENDLY_CATEGORICAL_PALETTE = [
   "#FFAABB", // Pink
 ];
 
+// Helper function to get a color from the palette by index
+const getLineColor = (index: number): string => {
+  return COLORBLIND_FRIENDLY_CATEGORICAL_PALETTE[index % COLORBLIND_FRIENDLY_CATEGORICAL_PALETTE.length];
+};
+
 const LineChart: React.FC<LineChartProps> = ({
   data,
   lines,
@@ -132,15 +142,15 @@ const LineChart: React.FC<LineChartProps> = ({
           />
           <Tooltip content={<CustomTooltip />} />
           <Legend verticalAlign="top" height={36} />
-          {lines.map((line) => (
+          {lines.map((line, index) => (
             <Line
               key={line.key}
               type="monotone"
               dataKey={line.key}
               name={line.name}
-              stroke={line.color}
+              stroke={line.color || getLineColor(index)} // Use getLineColor if color is not provided
               strokeWidth={line.strokeWidth || 2}
-              strokeDasharray={line.lineStyle} // Apply line style
+              strokeDasharray={line.lineStyle || getLineStyle(index)} // Use getLineStyle if lineStyle is not provided
               dot={{ r: 3, strokeWidth: 1 }}
               activeDot={{ r: 5, strokeWidth: 1 }}
             />

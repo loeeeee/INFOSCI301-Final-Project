@@ -91,13 +91,22 @@ const BarChart: React.FC<BarChartProps> = ({
   maxBarSize = 60,
   height = 400,
 }) => {
+  // Helper function to get a color from the palette by index
+  const getBarColor = (index: number): string => {
+    return COLORBLIND_FRIENDLY_CATEGORICAL_PALETTE[index % COLORBLIND_FRIENDLY_CATEGORICAL_PALETTE.length];
+  };
+
   // Assign stackId if stacked is true
   const barsWithStackId = stacked
-    ? bars.map(bar => ({
+    ? bars.map((bar, index) => ({
         ...bar,
         stackId: bar.stackId || 'stack1',
+        color: bar.color || getBarColor(index), // Use getBarColor if color is not provided
       }))
-    : bars;
+    : bars.map((bar, index) => ({ // Also apply to non-stacked bars
+        ...bar,
+        color: bar.color || getBarColor(index), // Use getBarColor if color is not provided
+      }));
 
   return (
     <div className="w-full">

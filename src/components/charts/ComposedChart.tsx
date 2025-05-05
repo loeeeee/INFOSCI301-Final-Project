@@ -27,6 +27,11 @@ interface LineConfig {
   lineStyle?: string; // Add optional line style property
 }
 
+// Helper function to get a line style pattern by index
+const getComposedLineStyle = (index: number): string => {
+  return DASH_ARRAY_PATTERNS[index % DASH_ARRAY_PATTERNS.length];
+};
+
 // Predefined dash array patterns for accessibility
 const DASH_ARRAY_PATTERNS = [
   '0',       // Solid line
@@ -109,6 +114,11 @@ const CustomTooltip = ({
   return null;
 };
 
+// Helper function to get a color from the palette by index
+const getComposedColor = (index: number): string => {
+  return COLORBLIND_FRIENDLY_CATEGORICAL_PALETTE[index % COLORBLIND_FRIENDLY_CATEGORICAL_PALETTE.length];
+};
+
 const ComposedChart: React.FC<ComposedChartProps> = ({
   data,
   lines = [],
@@ -183,12 +193,12 @@ const ComposedChart: React.FC<ComposedChartProps> = ({
           <Legend verticalAlign="top" height={36} />
 
           {/* Render Bars */}
-          {bars.map((bar) => (
+          {bars.map((bar, index) => (
             <Bar
               key={`bar-${bar.dataKey}`}
               dataKey={bar.dataKey}
               name={bar.name}
-              fill={bar.color}
+              fill={bar.color || getComposedColor(index)} // Use getComposedColor if color is not provided
               yAxisId={bar.yAxisId || 'left'}
               stackId={bar.stackId}
               radius={bar.radius || [4, 4, 0, 0] as [number, number, number, number]}
@@ -196,15 +206,15 @@ const ComposedChart: React.FC<ComposedChartProps> = ({
           ))}
 
           {/* Render Lines */}
-          {lines.map((line) => (
+          {lines.map((line, index) => (
             <Line
               key={`line-${line.dataKey}`}
               type="monotone"
               dataKey={line.dataKey}
               name={line.name}
-              stroke={line.color}
+              stroke={line.color || getComposedColor(index)} // Use getComposedColor if color is not provided
               strokeWidth={line.strokeWidth || 2}
-              strokeDasharray={line.lineStyle} // Apply line style
+              strokeDasharray={line.lineStyle || getComposedLineStyle(index)} // Use getComposedLineStyle if lineStyle is not provided
               yAxisId={line.yAxisId || 'left'}
               dot={{ r: 3, strokeWidth: 1 }}
               activeDot={{ r: 5, strokeWidth: 1 }}
