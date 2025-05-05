@@ -197,14 +197,14 @@ def main():
     db.create_all()
     
     # Load CSI data
-    csi_file = 'canada.csv'
+    csi_file = 'data/canada.csv'
     if os.path.exists(csi_file):
         load_csi_data(csi_file)
     else:
         print(f"Error: {csi_file} not found")
     
     # Load CAN-SAR data
-    cansar_file = 'processed_CAN-SAR_vertebrates_1970-2018_async.csv'
+    cansar_file = 'data/processed_CAN-SAR_vertebrates_1970-2018_async.csv'
     if os.path.exists(cansar_file):
         # Ask for max records to process
         max_records = input("Enter maximum number of CAN-SAR records to process (or 'all' for all records): ")
