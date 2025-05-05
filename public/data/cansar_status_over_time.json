@@ -1,0 +1,752 @@
+[
+  {
+    "year": 2003,
+    "group": "Birds",
+    "status": "Endangered",
+    "count": 1
+  },
+  {
+    "year": 2004,
+    "group": "Mammals",
+    "status": "Threatened",
+    "count": 1
+  },
+  {
+    "year": 2005,
+    "group": "Birds",
+    "status": "Endangered",
+    "count": 1
+  },
+  {
+    "year": 2005,
+    "group": "Fish",
+    "status": "Endangered",
+    "count": 1
+  },
+  {
+    "year": 2005,
+    "group": "Fish",
+    "status": "Special Concern",
+    "count": 1
+  },
+  {
+    "year": 2005,
+    "group": "Fish",
+    "status": "Threatened",
+    "count": 1
+  },
+  {
+    "year": 2005,
+    "group": "Mammals",
+    "status": "Special Concern",
+    "count": 1
+  },
+  {
+    "year": 2005,
+    "group": "Mammals",
+    "status": "Threatened",
+    "count": 1
+  },
+  {
+    "year": 2006,
+    "group": "Birds",
+    "status": "Endangered",
+    "count": 6
+  },
+  {
+    "year": 2006,
+    "group": "Birds",
+    "status": "Special Concern",
+    "count": 1
+  },
+  {
+    "year": 2006,
+    "group": "Birds",
+    "status": "Threatened",
+    "count": 1
+  },
+  {
+    "year": 2006,
+    "group": "Fish",
+    "status": "Endangered",
+    "count": 3
+  },
+  {
+    "year": 2006,
+    "group": "Fish",
+    "status": "Threatened",
+    "count": 1
+  },
+  {
+    "year": 2006,
+    "group": "Mammals",
+    "status": "Endangered",
+    "count": 3
+  },
+  {
+    "year": 2006,
+    "group": "Mammals",
+    "status": "Special Concern",
+    "count": 1
+  },
+  {
+    "year": 2006,
+    "group": "Mammals",
+    "status": "Threatened",
+    "count": 1
+  },
+  {
+    "year": 2007,
+    "group": "Birds",
+    "status": "Endangered",
+    "count": 4
+  },
+  {
+    "year": 2007,
+    "group": "Birds",
+    "status": "Special Concern",
+    "count": 3
+  },
+  {
+    "year": 2007,
+    "group": "Birds",
+    "status": "Threatened",
+    "count": 7
+  },
+  {
+    "year": 2007,
+    "group": "Fish",
+    "status": "Endangered",
+    "count": 8
+  },
+  {
+    "year": 2007,
+    "group": "Fish",
+    "status": "Special Concern",
+    "count": 7
+  },
+  {
+    "year": 2007,
+    "group": "Fish",
+    "status": "Threatened",
+    "count": 4
+  },
+  {
+    "year": 2007,
+    "group": "Mammals",
+    "status": "Endangered",
+    "count": 2
+  },
+  {
+    "year": 2007,
+    "group": "Mammals",
+    "status": "Special Concern",
+    "count": 2
+  },
+  {
+    "year": 2007,
+    "group": "Mammals",
+    "status": "Threatened",
+    "count": 2
+  },
+  {
+    "year": 2008,
+    "group": "Birds",
+    "status": "Endangered",
+    "count": 3
+  },
+  {
+    "year": 2008,
+    "group": "Birds",
+    "status": "Special Concern",
+    "count": 3
+  },
+  {
+    "year": 2008,
+    "group": "Birds",
+    "status": "Threatened",
+    "count": 4
+  },
+  {
+    "year": 2008,
+    "group": "Fish",
+    "status": "Endangered",
+    "count": 3
+  },
+  {
+    "year": 2008,
+    "group": "Fish",
+    "status": "Special Concern",
+    "count": 2
+  },
+  {
+    "year": 2008,
+    "group": "Fish",
+    "status": "Threatened",
+    "count": 1
+  },
+  {
+    "year": 2008,
+    "group": "Mammals",
+    "status": "Endangered",
+    "count": 2
+  },
+  {
+    "year": 2008,
+    "group": "Mammals",
+    "status": "Special Concern",
+    "count": 1
+  },
+  {
+    "year": 2008,
+    "group": "Mammals",
+    "status": "Threatened",
+    "count": 4
+  },
+  {
+    "year": 2009,
+    "group": "Birds",
+    "status": "Endangered",
+    "count": 4
+  },
+  {
+    "year": 2009,
+    "group": "Birds",
+    "status": "Special Concern",
+    "count": 3
+  },
+  {
+    "year": 2009,
+    "group": "Birds",
+    "status": "Threatened",
+    "count": 4
+  },
+  {
+    "year": 2009,
+    "group": "Fish",
+    "status": "Endangered",
+    "count": 1
+  },
+  {
+    "year": 2009,
+    "group": "Fish",
+    "status": "Special Concern",
+    "count": 5
+  },
+  {
+    "year": 2009,
+    "group": "Fish",
+    "status": "Threatened",
+    "count": 2
+  },
+  {
+    "year": 2009,
+    "group": "Mammals",
+    "status": "Endangered",
+    "count": 1
+  },
+  {
+    "year": 2009,
+    "group": "Mammals",
+    "status": "Special Concern",
+    "count": 2
+  },
+  {
+    "year": 2009,
+    "group": "Mammals",
+    "status": "Threatened",
+    "count": 1
+  },
+  {
+    "year": 2010,
+    "group": "Birds",
+    "status": "Endangered",
+    "count": 8
+  },
+  {
+    "year": 2010,
+    "group": "Birds",
+    "status": "Special Concern",
+    "count": 2
+  },
+  {
+    "year": 2010,
+    "group": "Birds",
+    "status": "Threatened",
+    "count": 3
+  },
+  {
+    "year": 2010,
+    "group": "Fish",
+    "status": "Endangered",
+    "count": 9
+  },
+  {
+    "year": 2010,
+    "group": "Fish",
+    "status": "Special Concern",
+    "count": 6
+  },
+  {
+    "year": 2010,
+    "group": "Fish",
+    "status": "Threatened",
+    "count": 2
+  },
+  {
+    "year": 2010,
+    "group": "Mammals",
+    "status": "Special Concern",
+    "count": 2
+  },
+  {
+    "year": 2010,
+    "group": "Mammals",
+    "status": "Threatened",
+    "count": 1
+  },
+  {
+    "year": 2011,
+    "group": "Birds",
+    "status": "Endangered",
+    "count": 5
+  },
+  {
+    "year": 2011,
+    "group": "Birds",
+    "status": "Special Concern",
+    "count": 2
+  },
+  {
+    "year": 2011,
+    "group": "Birds",
+    "status": "Threatened",
+    "count": 2
+  },
+  {
+    "year": 2011,
+    "group": "Fish",
+    "status": "Endangered",
+    "count": 1
+  },
+  {
+    "year": 2011,
+    "group": "Fish",
+    "status": "Special Concern",
+    "count": 6
+  },
+  {
+    "year": 2011,
+    "group": "Fish",
+    "status": "Threatened",
+    "count": 1
+  },
+  {
+    "year": 2011,
+    "group": "Lichens",
+    "status": "Special Concern",
+    "count": 1
+  },
+  {
+    "year": 2011,
+    "group": "Mammals",
+    "status": "Endangered",
+    "count": 3
+  },
+  {
+    "year": 2011,
+    "group": "Mammals",
+    "status": "Special Concern",
+    "count": 4
+  },
+  {
+    "year": 2011,
+    "group": "Mammals",
+    "status": "Threatened",
+    "count": 2
+  },
+  {
+    "year": 2012,
+    "group": "Birds",
+    "status": "Endangered",
+    "count": 4
+  },
+  {
+    "year": 2012,
+    "group": "Birds",
+    "status": "Special Concern",
+    "count": 4
+  },
+  {
+    "year": 2012,
+    "group": "Birds",
+    "status": "Threatened",
+    "count": 5
+  },
+  {
+    "year": 2012,
+    "group": "Fish",
+    "status": "Endangered",
+    "count": 8
+  },
+  {
+    "year": 2012,
+    "group": "Fish",
+    "status": "Special Concern",
+    "count": 8
+  },
+  {
+    "year": 2012,
+    "group": "Fish",
+    "status": "Threatened",
+    "count": 7
+  },
+  {
+    "year": 2012,
+    "group": "Mammals",
+    "status": "Endangered",
+    "count": 5
+  },
+  {
+    "year": 2012,
+    "group": "Mammals",
+    "status": "Special Concern",
+    "count": 3
+  },
+  {
+    "year": 2012,
+    "group": "Mammals",
+    "status": "Threatened",
+    "count": 1
+  },
+  {
+    "year": 2013,
+    "group": "Birds",
+    "status": "Endangered",
+    "count": 4
+  },
+  {
+    "year": 2013,
+    "group": "Birds",
+    "status": "Special Concern",
+    "count": 6
+  },
+  {
+    "year": 2013,
+    "group": "Birds",
+    "status": "Threatened",
+    "count": 3
+  },
+  {
+    "year": 2013,
+    "group": "Fish",
+    "status": "Endangered",
+    "count": 1
+  },
+  {
+    "year": 2013,
+    "group": "Fish",
+    "status": "Special Concern",
+    "count": 5
+  },
+  {
+    "year": 2013,
+    "group": "Fish",
+    "status": "Threatened",
+    "count": 1
+  },
+  {
+    "year": 2013,
+    "group": "Mammals",
+    "status": "Endangered",
+    "count": 6
+  },
+  {
+    "year": 2013,
+    "group": "Mammals",
+    "status": "Special Concern",
+    "count": 1
+  },
+  {
+    "year": 2013,
+    "group": "Mammals",
+    "status": "Threatened",
+    "count": 2
+  },
+  {
+    "year": 2013,
+    "group": "Molluscs",
+    "status": "Endangered",
+    "count": 1
+  },
+  {
+    "year": 2014,
+    "group": "Birds",
+    "status": "Endangered",
+    "count": 4
+  },
+  {
+    "year": 2014,
+    "group": "Birds",
+    "status": "Special Concern",
+    "count": 5
+  },
+  {
+    "year": 2014,
+    "group": "Birds",
+    "status": "Threatened",
+    "count": 4
+  },
+  {
+    "year": 2014,
+    "group": "Fish",
+    "status": "Endangered",
+    "count": 3
+  },
+  {
+    "year": 2014,
+    "group": "Fish",
+    "status": "Special Concern",
+    "count": 3
+  },
+  {
+    "year": 2014,
+    "group": "Fish",
+    "status": "Threatened",
+    "count": 2
+  },
+  {
+    "year": 2014,
+    "group": "Lichens",
+    "status": "Special Concern",
+    "count": 1
+  },
+  {
+    "year": 2014,
+    "group": "Mammals",
+    "status": "Endangered",
+    "count": 5
+  },
+  {
+    "year": 2014,
+    "group": "Mammals",
+    "status": "Special Concern",
+    "count": 4
+  },
+  {
+    "year": 2014,
+    "group": "Mammals",
+    "status": "Threatened",
+    "count": 1
+  },
+  {
+    "year": 2015,
+    "group": "Birds",
+    "status": "Endangered",
+    "count": 1
+  },
+  {
+    "year": 2015,
+    "group": "Birds",
+    "status": "Special Concern",
+    "count": 2
+  },
+  {
+    "year": 2015,
+    "group": "Birds",
+    "status": "Threatened",
+    "count": 1
+  },
+  {
+    "year": 2015,
+    "group": "Fish",
+    "status": "Special Concern",
+    "count": 3
+  },
+  {
+    "year": 2015,
+    "group": "Fish",
+    "status": "Threatened",
+    "count": 2
+  },
+  {
+    "year": 2015,
+    "group": "Mammals",
+    "status": "Endangered",
+    "count": 3
+  },
+  {
+    "year": 2015,
+    "group": "Mammals",
+    "status": "Special Concern",
+    "count": 7
+  },
+  {
+    "year": 2015,
+    "group": "Mammals",
+    "status": "Threatened",
+    "count": 2
+  },
+  {
+    "year": 2016,
+    "group": "Birds",
+    "status": "Endangered",
+    "count": 6
+  },
+  {
+    "year": 2016,
+    "group": "Birds",
+    "status": "Special Concern",
+    "count": 3
+  },
+  {
+    "year": 2016,
+    "group": "Birds",
+    "status": "Threatened",
+    "count": 5
+  },
+  {
+    "year": 2016,
+    "group": "Fish",
+    "status": "Endangered",
+    "count": 2
+  },
+  {
+    "year": 2016,
+    "group": "Fish",
+    "status": "Special Concern",
+    "count": 5
+  },
+  {
+    "year": 2016,
+    "group": "Fish",
+    "status": "Threatened",
+    "count": 2
+  },
+  {
+    "year": 2016,
+    "group": "Lichens",
+    "status": "Special Concern",
+    "count": 1
+  },
+  {
+    "year": 2016,
+    "group": "Mammals",
+    "status": "Endangered",
+    "count": 3
+  },
+  {
+    "year": 2016,
+    "group": "Mammals",
+    "status": "Special Concern",
+    "count": 4
+  },
+  {
+    "year": 2017,
+    "group": "Birds",
+    "status": "Endangered",
+    "count": 3
+  },
+  {
+    "year": 2017,
+    "group": "Birds",
+    "status": "Special Concern",
+    "count": 6
+  },
+  {
+    "year": 2017,
+    "group": "Birds",
+    "status": "Threatened",
+    "count": 4
+  },
+  {
+    "year": 2017,
+    "group": "Fish",
+    "status": "Endangered",
+    "count": 1
+  },
+  {
+    "year": 2017,
+    "group": "Fish",
+    "status": "Special Concern",
+    "count": 4
+  },
+  {
+    "year": 2017,
+    "group": "Fish",
+    "status": "Threatened",
+    "count": 3
+  },
+  {
+    "year": 2017,
+    "group": "Mammals",
+    "status": "Endangered",
+    "count": 1
+  },
+  {
+    "year": 2017,
+    "group": "Mammals",
+    "status": "Special Concern",
+    "count": 5
+  },
+  {
+    "year": 2017,
+    "group": "Mammals",
+    "status": "Threatened",
+    "count": 2
+  },
+  {
+    "year": 2018,
+    "group": "Birds",
+    "status": "Endangered",
+    "count": 3
+  },
+  {
+    "year": 2018,
+    "group": "Birds",
+    "status": "Special Concern",
+    "count": 2
+  },
+  {
+    "year": 2018,
+    "group": "Birds",
+    "status": "Threatened",
+    "count": 7
+  },
+  {
+    "year": 2018,
+    "group": "Fish",
+    "status": "Endangered",
+    "count": 8
+  },
+  {
+    "year": 2018,
+    "group": "Fish",
+    "status": "Special Concern",
+    "count": 2
+  },
+  {
+    "year": 2018,
+    "group": "Fish",
+    "status": "Threatened",
+    "count": 1
+  },
+  {
+    "year": 2018,
+    "group": "Mammals",
+    "status": "Endangered",
+    "count": 6
+  },
+  {
+    "year": 2018,
+    "group": "Mammals",
+    "status": "Special Concern",
+    "count": 2
+  },
+  {
+    "year": 2018,
+    "group": "Mammals",
+    "status": "Threatened",
+    "count": 4
+  }
+]

@@ -1,0 +1,4363 @@
+[
+  {
+    "id": "178",
+    "name": "ancient murrelet",
+    "scientificName": "Synthliboramphus antiquus",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, Regulate human activities, Invasive species removal, protection",
+      "Outreach and stewardship, Research and monitoring, Habitat management"
+    ]
+  },
+  {
+    "id": "155",
+    "name": "basking shark pacific population",
+    "scientificName": "Cetorhinus maximus",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "NE",
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "education, research, regulate human activities, monitoring, "
+    ]
+  },
+  {
+    "id": "1001",
+    "name": "black redhorse",
+    "scientificName": "Moxostoma duquesnei",
+    "taxonomicGroup": "Fish",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "1018",
+    "name": "black swift",
+    "scientificName": "Cypseloides niger",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "BC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "833",
+    "name": "bull trout saskatchewan-nelson rivers populations",
+    "scientificName": "Salvelinus confluentus",
+    "taxonomicGroup": "Fish",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "1003",
+    "name": "bull trout south coast british columbia populations",
+    "scientificName": "Salvelinus confluentus",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "1004",
+    "name": "bull trout western arctic populations",
+    "scientificName": "Salvelinus confluentus",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "NT",
+      "YT"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "25",
+    "name": "caribou dolphin and union population",
+    "scientificName": "Rangifer tarandus groenlandicus",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "NT",
+      "NU"
+    ],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, protection, Regulate human activities, Manage native species negatively impacting species at risk, Mitigate climate change",
+      "Outreach and stewardship, Research and monitoring, Habitat management"
+    ]
+  },
+  {
+    "id": "14",
+    "name": "carmine shiner",
+    "scientificName": "Notropis percobromus",
+    "taxonomicGroup": "Fish",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "MB"
+    ],
+    "threats": [],
+    "actions": [
+      "NE",
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "research, monitoring, regulate human activities, protection, education,"
+    ]
+  },
+  {
+    "id": "1019",
+    "name": "cassin's auklet",
+    "scientificName": "Ptychoramphus aleuticus",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "447",
+    "name": "chimney swift",
+    "scientificName": "Chaetura pelagica",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "MB",
+      "NB",
+      "NS",
+      "ON",
+      "QC",
+      "SK"
+    ],
+    "threats": [],
+    "actions": [
+      "NE"
+    ]
+  },
+  {
+    "id": "252",
+    "name": "coastal vesper sparrow",
+    "scientificName": "Pooecetes gramineus affinis",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "NE",
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "habitat restoration, protection, research, monitoring, education, Manage native species negatively impacting species at risk, invasive species removal, translocation"
+    ]
+  },
+  {
+    "id": "506",
+    "name": "common nighthawk",
+    "scientificName": "Chordeiles minor",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "NT",
+      "NU",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "YT"
+    ],
+    "threats": [],
+    "actions": [
+      "NE",
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "monitoring, research, regulate human activities, protection, education, Manage native species negatively impacting species at risk"
+    ]
+  },
+  {
+    "id": "1005",
+    "name": "cutlip minnow",
+    "scientificName": "Exoglossum maxillingua",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "17",
+    "name": "eastern whip-poor-will",
+    "scientificName": "Antrostomus vociferus",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "MB",
+      "NB",
+      "NS",
+      "ON",
+      "QC",
+      "SK"
+    ],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, Protection, Habitat restoration, Mitigate climate change, Regulate human activities, Manage native species negatively impacting species at risk,",
+      "Outreach and stewardship, Research and monitoring, Habitat management"
+    ]
+  },
+  {
+    "id": "1020",
+    "name": "evening grosbeak",
+    "scientificName": "Coccothraustes vespertinus",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "NT",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "YT"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "1007",
+    "name": "giant threespine stickleback",
+    "scientificName": "Gasterosteus aculeatus",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "835",
+    "name": "gray fox",
+    "scientificName": "Urocyon cinereoargenteus",
+    "taxonomicGroup": "Mammals",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, Protection,  Habitat restoration, Regulate human activities,",
+      "Outreach and stewardship, Research and monitoring, Habitat management"
+    ]
+  },
+  {
+    "id": "1503",
+    "name": "grey whale pacific coast feeding group population",
+    "scientificName": "Eschrichtius robustus",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "824",
+    "name": "grey whale northern pacific migratory population",
+    "scientificName": "Eschrichtius robustus",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC",
+      "NT",
+      "YT"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "1504",
+    "name": "grey whale western pacific population",
+    "scientificName": "Eschrichtius robustus",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "1040",
+    "name": "grizzly bear western population",
+    "scientificName": "Ursus arctos",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NT",
+      "NU",
+      "SK",
+      "YT"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "177",
+    "name": "harbour seal lacs des loups marins subspecies",
+    "scientificName": "Phoca vitulina mellonae",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, Protection, Regulate human activities",
+      "NE",
+      "Outreach and stewardship, Research and monitoring, Habitat management"
+    ]
+  },
+  {
+    "id": "1009",
+    "name": "lake sturgeon southern hudson bay-james bay populations",
+    "scientificName": "Acipenser fulvescens",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "MB",
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "1021",
+    "name": "lark bunting",
+    "scientificName": "Calamospiza melanocorys",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB",
+      "MB",
+      "SK"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "832",
+    "name": "lilliput",
+    "scientificName": "Toxolasma parvum",
+    "taxonomicGroup": "Molluscs",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "126",
+    "name": "little brown myotis",
+    "scientificName": "Myotis lucifugus",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "NT",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "YT"
+    ],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, Protection, Treat disease, Habitat restoration, Regulate human activities, Mitigate climate change",
+      "Outreach and stewardship, Research and monitoring, Habitat management"
+    ]
+  },
+  {
+    "id": "493",
+    "name": "misty lake lentic threespine stickleback",
+    "scientificName": "Gasterosteus aculeatus",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, Protection, Invasive species removal, Regulate human activities, Emergency response",
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management"
+    ]
+  },
+  {
+    "id": "494",
+    "name": "misty lake lotic threespine stickleback",
+    "scientificName": "Gasterosteus aculeatus",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, Protection, Invasive species removal, Regulate human activities, Emergency response",
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management"
+    ]
+  },
+  {
+    "id": "1028",
+    "name": "mountain crab-eye",
+    "scientificName": "Acroscyphus sphaerophoroides",
+    "taxonomicGroup": "Lichens",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "400",
+    "name": "nooksack dace",
+    "scientificName": "Rhinichthys cataractae",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "NE"
+    ]
+  },
+  {
+    "id": "107",
+    "name": "northern bobwhite",
+    "scientificName": "Colinus virginianus",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, Protection, Regulate human activities, Habitat restoration, Invasive species removal, Captive breeding, Re-establishing populations, Feeding,",
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management"
+    ]
+  },
+  {
+    "id": "395",
+    "name": "northern brook lamprey great lakes-upper st. lawrence populations",
+    "scientificName": "Ichthyomyzon fossor",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, Protection, Regulate human activities, Habitat restoration,",
+      "NE",
+      "Outreach and stewardship, Research and monitoring, Habitat management"
+    ]
+  },
+  {
+    "id": "121",
+    "name": "northern goshawk laingi subspecies",
+    "scientificName": "Accipiter gentilis laingi",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, Protection, Habitat restoration, Invasive species removal,",
+      "Outreach and stewardship, Research and monitoring, Habitat management"
+    ]
+  },
+  {
+    "id": "381",
+    "name": "northern myotis",
+    "scientificName": "Myotis septentrionalis",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "NT",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "YT"
+    ],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, Protection, Treat disease, Habitat restoration, Mitigate climate change, Regulate human activities,",
+      "Outreach and stewardship, Research and monitoring, Habitat management"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "killer whale northeast pacific northern resident population",
+    "scientificName": "Orcinus orca",
+    "taxonomicGroup": "Mammals",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, Protection, Regulate human activities,",
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "monitoring, research, protection, regulate human activities, education"
+    ]
+  },
+  {
+    "id": "295",
+    "name": "northern saw-whet owl brooksi subspecies",
+    "scientificName": "Aegolius acadicus brooksi",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "research, monitoring, protection, regulate human activities, education"
+    ]
+  },
+  {
+    "id": "1011",
+    "name": "northern sunfish great lakes-upper st. lawrence populations",
+    "scientificName": "Lepomis peltastes",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "6",
+    "name": "killer whale northeast pacific offshore population",
+    "scientificName": "Orcinus orca",
+    "taxonomicGroup": "Mammals",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Education, Research, Monitoring, Protection, Regulate human activities, Invasive species removal,",
+      "Outreach and stewardship, Research and monitoring, Habitat management"
+    ]
+  },
+  {
+    "id": "146",
+    "name": "olive-sided flycatcher",
+    "scientificName": "Contopus cooperi",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "NT",
+      "NU",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "YT"
+    ],
+    "threats": [],
+    "actions": [
+      "NE",
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "monitoring, research, protection, education, Manage native species negatively impacting species at risk, invasive species removal, regulate human activities, habitat restoration,"
+    ]
+  },
+  {
+    "id": "383",
+    "name": "peregrine falcon anatum/tundrius",
+    "scientificName": "Falco peregrinus anatum/tundrius",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "NT",
+      "NU",
+      "ON",
+      "QC",
+      "SK",
+      "YT"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "protection, regulate human activities, monitoring, research, captive breeding, education, habitat restoration"
+    ]
+  },
+  {
+    "id": "179",
+    "name": "peregrine falcon pealei subspecies",
+    "scientificName": "Falco peregrinus pealei",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Habitat management, Population management",
+      "protection, regulate human activities, monitoring, research, invasive species removal, emergency response "
+    ]
+  },
+  {
+    "id": "1012",
+    "name": "plains minnow",
+    "scientificName": "Hybognathus placitus",
+    "taxonomicGroup": "Fish",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "SK"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "307",
+    "name": "polar bear",
+    "scientificName": "Ursus maritimus",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "MB",
+      "NL",
+      "NT",
+      "NU",
+      "ON",
+      "QC",
+      "YT"
+    ],
+    "threats": [],
+    "actions": [
+      "NE"
+    ]
+  },
+  {
+    "id": "1521",
+    "name": "rainbow smelt lake utopia large-bodied population",
+    "scientificName": "Osmerus mordax",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "NB"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "378",
+    "name": "rainbow smelt lake utopia small-bodied population",
+    "scientificName": "Osmerus mordax",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "NB"
+    ],
+    "threats": [],
+    "actions": [
+      "NE",
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "research, monitoring, regulate human activities, education,"
+    ]
+  },
+  {
+    "id": "1013",
+    "name": "rainbow trout athabasca river populations",
+    "scientificName": "Oncorhynchus mykiss",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "339",
+    "name": "red-headed woodpecker",
+    "scientificName": "Melanerpes erythrocephalus",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "MB",
+      "ON",
+      "QC",
+      "SK"
+    ],
+    "threats": [],
+    "actions": [
+      "NE"
+    ]
+  },
+  {
+    "id": "1022",
+    "name": "red-necked phalarope",
+    "scientificName": "Phalaropus lobatus",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "NT",
+      "NU",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "YT"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "443",
+    "name": "redside dace",
+    "scientificName": "Clinostomus elongatus",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "324",
+    "name": "river redhorse",
+    "scientificName": "Moxostoma carinatum",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, Protection, Habitat restoration, Regulate human activities,",
+      "Outreach and stewardship, Research and monitoring, Habitat management"
+    ]
+  },
+  {
+    "id": "148",
+    "name": "short-eared owl",
+    "scientificName": "Asio flammeus",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "NT",
+      "NU",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "YT"
+    ],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, Protection, Habitat restoration, Mitigate climate change, Regulate human activities,",
+      "Outreach and stewardship, Research and monitoring, Habitat management"
+    ]
+  },
+  {
+    "id": "1014",
+    "name": "silver lamprey great lakes-upper st. lawrence populations",
+    "scientificName": "Ichthyomyzon unicuspis",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "828",
+    "name": "silver shiner",
+    "scientificName": "Notropis photogenis",
+    "taxonomicGroup": "Fish",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "7",
+    "name": "killer whale northeast pacific southern resident population",
+    "scientificName": "Orcinus orca",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, Protection, Regulate human activities,",
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "monitoring, research, protection, regulate human activities, education"
+    ]
+  },
+  {
+    "id": "497",
+    "name": "speckled dace",
+    "scientificName": "Rhinichthys osculus",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, Protection, Habitat restoration, Invasive species removal,",
+      "Outreach and stewardship, Research and monitoring, Habitat management"
+    ]
+  },
+  {
+    "id": "170",
+    "name": "streaked horned lark",
+    "scientificName": "Eremophila alpestris strigata",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "NE",
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "habitat restoration, protection, research, monitoring, education, "
+    ]
+  },
+  {
+    "id": "245",
+    "name": "tri-colored bat",
+    "scientificName": "Perimyotis subflavus",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "NB",
+      "NS",
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, Protection, Treat disease, Habitat restoration,  Regulate human activities, Mitigate climate change",
+      "Outreach and stewardship, Research and monitoring, Habitat management"
+    ]
+  },
+  {
+    "id": "1017",
+    "name": "unarmoured threespine stickleback",
+    "scientificName": "Gasterosteus aculeatus",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "101",
+    "name": "vancouver lamprey",
+    "scientificName": "Entosphenus macrostomus",
+    "taxonomicGroup": "Fish",
+    "status": "Threatened",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "regulate human activities, protection, research, monitoring, education"
+    ]
+  },
+  {
+    "id": "385",
+    "name": "western silvery minnow",
+    "scientificName": "Hybognathus argyritis",
+    "taxonomicGroup": "Fish",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "regulate human activities, monitoring, research, education,"
+    ]
+  },
+  {
+    "id": "253",
+    "name": "williamson's sapsucker",
+    "scientificName": "Sphyrapicus thyroideus",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "NE",
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "habitat restoration, protection, research, monitoring, education, regulate human activities"
+    ]
+  },
+  {
+    "id": "1044",
+    "name": "wolverine",
+    "scientificName": "Gulo gulo",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NL",
+      "NT",
+      "NU",
+      "ON",
+      "QC",
+      "SK",
+      "YT"
+    ],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, Regulate human activities,",
+      "Outreach and stewardship, Research and monitoring, Habitat management"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "wood bison",
+    "scientificName": "Bison bison athabascae",
+    "taxonomicGroup": "Mammals",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NT",
+      "YT"
+    ],
+    "threats": [],
+    "actions": [
+      "Education, Monitoring, Research, Protection, Treat disease, Re-establishing populations, Regulate human activities, Habitat restoration, Emergency response, Invasive species removal,   Manage native species negatively impacting species at risk, captive breeding",
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "fin whale atlantic population",
+    "scientificName": "Balaenoptera physalus",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "NE",
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "protection, regulate human activities, education, emergency response, research, monitoring,"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "fin whale pacific population",
+    "scientificName": "Balaenoptera physalus",
+    "taxonomicGroup": "Mammals",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "NE",
+      "Outreach and stewardship, Research and monitoring",
+      "research, monitoring, education"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "killer whale northeast pacific transient population",
+    "scientificName": "Orcinus orca",
+    "taxonomicGroup": "Mammals",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "monitoring, research, education, regulate human activities,"
+    ]
+  },
+  {
+    "id": "11",
+    "name": "burrowing owl",
+    "scientificName": "Athene cunicularia",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "SK"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "research, monitoring, protection, habitat restoration, Manage native species negatively impacting species at risk, education, captive breeding, re-establishing populations,"
+    ]
+  },
+  {
+    "id": "12",
+    "name": "blue whale pacific population",
+    "scientificName": "Balaenoptera musculus",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "protection, education, monitoring, regulate human activities, research"
+    ]
+  },
+  {
+    "id": "15",
+    "name": "black-footed albatross",
+    "scientificName": "Phoebastria nigripes",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "monitoring, research, regulate human activities, protection, education"
+    ]
+  },
+  {
+    "id": "16",
+    "name": "loggerhead shrike prairie subspecies",
+    "scientificName": "Lanius ludovicianus excubitorides",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "MB",
+      "SK"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "monitoring, research, habitat restoration, education, regulate human activities"
+    ]
+  },
+  {
+    "id": "18",
+    "name": "blue whale atlantic population",
+    "scientificName": "Balaenoptera musculus",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management, Population management",
+      "protection, education, monitoring, regulate human activities, research, emergency response"
+    ]
+  },
+  {
+    "id": "23",
+    "name": "bridle shiner",
+    "scientificName": "Notropis bifrenatus",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "monitoring, habitat restoration, research, regulate human activities, education,"
+    ]
+  },
+  {
+    "id": "24",
+    "name": "pugnose minnow",
+    "scientificName": "Opsopoeodus emiliae",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": [
+      " habitat restoration, education, monitoring, research,",
+      "Outreach and stewardship, Research and monitoring, Habitat management"
+    ]
+  },
+  {
+    "id": "27",
+    "name": "ross's gull",
+    "scientificName": "Rhodostethia rosea",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "MB",
+      "NU"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "monitoring, regulate human activities, Manage native species negatively impacting species at risk, education, research, protection,"
+    ]
+  },
+  {
+    "id": "29",
+    "name": "barn owl eastern population",
+    "scientificName": "Tyto alba",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "30",
+    "name": "barn owl western population",
+    "scientificName": "Tyto alba",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "31",
+    "name": "northern madtom",
+    "scientificName": "Noturus stigmosus",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management, Population management",
+      "regulate human activities, monitoring, research, captive breeding, education, re-establishing populations,"
+    ]
+  },
+  {
+    "id": "32",
+    "name": "bank swallow",
+    "scientificName": "Riparia riparia",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "NT",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "YT"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "33",
+    "name": "barn swallow",
+    "scientificName": "Hirundo rustica",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "NT",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "YT"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "35",
+    "name": "collared pika",
+    "scientificName": "Ochotona collaris",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC",
+      "NT",
+      "YT"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "38",
+    "name": "peary caribou",
+    "scientificName": "Rangifer tarandus pearyi",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "NT",
+      "NU"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "53",
+    "name": "american badger jacksoni subspecies",
+    "scientificName": "Taxidea taxus jacksoni",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "research, monitoring, protection, regulate human activities, habitat restoration, education"
+    ]
+  },
+  {
+    "id": "54",
+    "name": "caribou boreal population",
+    "scientificName": "Rangifer tarandus",
+    "taxonomicGroup": "Mammals",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NL",
+      "NT",
+      "ON",
+      "QC",
+      "SK",
+      "YT"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "research, monitoring, protection, Manage native species negatively impacting species at risk, regulate human activities, education, habitat restoration"
+    ]
+  },
+  {
+    "id": "57",
+    "name": "blackstripe topminnow",
+    "scientificName": "Fundulus notatus",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "habitat restoration, education, monitoring, research, "
+    ]
+  },
+  {
+    "id": "60",
+    "name": "gray fox",
+    "scientificName": "Urocyon cineroargenteus",
+    "taxonomicGroup": "Mammals",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": [
+      "NE"
+    ]
+  },
+  {
+    "id": "62",
+    "name": "caribou atlantic-gasp\ufffdsie population",
+    "scientificName": "Rangifer tarandus",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "research, monitoring, protection, Manage native species negatively impacting species at risk, regulate human activities, education"
+    ]
+  },
+  {
+    "id": "63",
+    "name": "american badger taxus subspecies",
+    "scientificName": "Taxidea taxus taxus",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB",
+      "MB",
+      "ON",
+      "SK"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "69",
+    "name": "spotted gar",
+    "scientificName": "Lepisosteus oculatus",
+    "taxonomicGroup": "Fish",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "protection, habitat restoration, regulate human activities, research, monitoring, education,"
+    ]
+  },
+  {
+    "id": "70",
+    "name": "deepwater sculpin great lakes-upper st. lawrence populations",
+    "scientificName": "Myoxocephalus thompsonii",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Population management",
+      "monitoring, research, re-establishing populations, education"
+    ]
+  },
+  {
+    "id": "74",
+    "name": "north atlantic right whale",
+    "scientificName": "Eubalaena glacialis",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "regulate human activities, emergency response, monitoring, research, education,"
+    ]
+  },
+  {
+    "id": "75",
+    "name": "short-tailed albatross",
+    "scientificName": "Phoebastria albatrus",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Habitat management, Population management",
+      "regulate human activities, protection, research, re-establishing populations, "
+    ]
+  },
+  {
+    "id": "85",
+    "name": "warmouth",
+    "scientificName": "Lepomis gulosus",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "habitat restoration, education, monitoring, research"
+    ]
+  },
+  {
+    "id": "86",
+    "name": "shortnose sturgeon",
+    "scientificName": "Acipenser brevirostrum",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "NB",
+      "NS"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "research, monitoring, regulate human activities, education,"
+    ]
+  },
+  {
+    "id": "89",
+    "name": "rusty blackbird",
+    "scientificName": "Euphagus carolinus",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "NT",
+      "NU",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "YT"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "monitoring, research, regulate human activities, protection, mitigate climate change, education"
+    ]
+  },
+  {
+    "id": "90",
+    "name": "louisiana waterthrush",
+    "scientificName": "Parkesia motacilla",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "protection, regulate human activities, monitoring, research, education,"
+    ]
+  },
+  {
+    "id": "97",
+    "name": "enos lake benthic threespine stickleback",
+    "scientificName": "Gasterosteus aculeatus",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Habitat management, Population management",
+      "monitoring, research, regulate human activities, invasive species removal, re-establishing populations,"
+    ]
+  },
+  {
+    "id": "98",
+    "name": "enos lake limnetic threespine stickleback",
+    "scientificName": "Gasterosteus aculeatus",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Habitat management, Population management",
+      "monitoring, research, regulate human activities, invasive species removal, re-establishing populations,"
+    ]
+  },
+  {
+    "id": "102",
+    "name": "paxton lake benthic threespine stickleback",
+    "scientificName": "Gasterosteus aculeatus",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "education, research, monitoring, invasive species removal, regulate human activities, protection,"
+    ]
+  },
+  {
+    "id": "103",
+    "name": "paxton lake limnetic threespine stickleback",
+    "scientificName": "Gasterosteus aculeatus",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "education, research, monitoring, invasive species removal, regulate human activities, protection,"
+    ]
+  },
+  {
+    "id": "104",
+    "name": "bobolink",
+    "scientificName": "Dolichonyx oryzivorus",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "105",
+    "name": "chestnut-collared longspur",
+    "scientificName": "Calcarius ornatus",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "MB",
+      "SK"
+    ],
+    "threats": [],
+    "actions": [
+      "NE",
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "protection, habitat restoration, monitoring, research, education"
+    ]
+  },
+  {
+    "id": "106",
+    "name": "ferruginous hawk",
+    "scientificName": "Buteo regalis",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB",
+      "MB",
+      "SK"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "108",
+    "name": "band-tailed pigeon",
+    "scientificName": "Patagioenas fasciata",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "109",
+    "name": "grasshopper sparrow, pratensis subspecies",
+    "scientificName": "Ammodramus savannarum pratensis",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "112",
+    "name": "ermine haidarum subspecies",
+    "scientificName": "Mustela erminea haidarum",
+    "taxonomicGroup": "Mammals",
+    "status": "Threatened",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "protection, monitoring, research, habitat restoration, education, captive breeding,"
+    ]
+  },
+  {
+    "id": "114",
+    "name": "red crossbill percna subspecies",
+    "scientificName": "Loxia curvirostra percna",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "NL",
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "habitat restoration, research, monitoring, education, protection, invasive species removal, Manage native species negatively impacting species at risk,"
+    ]
+  },
+  {
+    "id": "115",
+    "name": "marbled murrelet",
+    "scientificName": "Brachyramphus marmoratus",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "research, monitoring, regulate human activities, protection, education,"
+    ]
+  },
+  {
+    "id": "118",
+    "name": "eastern wolf",
+    "scientificName": "Canis sp. cf. lycaon",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "119",
+    "name": "mccown's longspur",
+    "scientificName": "Rhynchophanes mccownii",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB",
+      "SK"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "monitoring, research, protection, regulate human activities, education"
+    ]
+  },
+  {
+    "id": "123",
+    "name": "coastrange sculpin cultus lake population",
+    "scientificName": "Cottus aleuticus",
+    "taxonomicGroup": "Fish",
+    "status": "Threatened",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      " education, protection, monitoring, research,",
+      "NE",
+      "Outreach and stewardship, Research and monitoring, Habitat management"
+    ]
+  },
+  {
+    "id": "125",
+    "name": "dolly varden western arctic populations",
+    "scientificName": "Salvelinus malma malma",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "NT",
+      "YT"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "130",
+    "name": "vancouver island marmot",
+    "scientificName": "Marmota vancouverensis",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "NE"
+    ]
+  },
+  {
+    "id": "140",
+    "name": "vananda creek benthic threespine stickleback",
+    "scientificName": "Gasterosteus aculeatus",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "protection, monitoring, research, invasive species removal, education, regulate human activities,"
+    ]
+  },
+  {
+    "id": "141",
+    "name": "vananda creek limnetic threespine stickleback",
+    "scientificName": "Gasterosteus aculeatus",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "protection, monitoring, research, invasive species removal, education, regulate human activities,"
+    ]
+  },
+  {
+    "id": "144",
+    "name": "eskimo curlew",
+    "scientificName": "Numenius borealis",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "NT",
+      "NU",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "YT"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "145",
+    "name": "horned grebe western population",
+    "scientificName": "Podiceps auritus",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NT",
+      "NU",
+      "ON",
+      "SK",
+      "YT"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "147",
+    "name": "canada warbler",
+    "scientificName": "Cardellina canadensis",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NS",
+      "NT",
+      "ON",
+      "PE",
+      "QC",
+      "SK",
+      "YT"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "monitoring, research, education, regulate human activities, protection, habitat restoration, Manage native species negatively impacting species at risk"
+    ]
+  },
+  {
+    "id": "150",
+    "name": "north pacific right whale",
+    "scientificName": "Eubalaena japonica",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Habitat management, Population management",
+      "monitoring, research, regulate human activities, emergency response,"
+    ]
+  },
+  {
+    "id": "153",
+    "name": "sea otter",
+    "scientificName": "Enhydra lutris",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "monitoring, research, emergency response, regulate human activities, education, protection, re-establishing populations"
+    ]
+  },
+  {
+    "id": "154",
+    "name": "beluga whale cumberland sound population",
+    "scientificName": "Delphinapterus leucas",
+    "taxonomicGroup": "Mammals",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "NU"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "156",
+    "name": "white shark atlantic population",
+    "scientificName": "Carcharodon carcharias",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "158",
+    "name": "bluntnose sixgill shark",
+    "scientificName": "Hexanchus griseus",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "monitoring, research, regulate human activities, education, emergency response, Mitigate climate change"
+    ]
+  },
+  {
+    "id": "159",
+    "name": "rougheye rockfish type i",
+    "scientificName": "Sebastes sp.type 1",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "monitoring, research, regulate human activities, education, protection"
+    ]
+  },
+  {
+    "id": "160",
+    "name": "rougheye rockfish type ii",
+    "scientificName": "Sebastes sp.type 2",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "monitoring, research, regulate human activities, education, protection"
+    ]
+  },
+  {
+    "id": "161",
+    "name": "tope shark",
+    "scientificName": "Galeorhinus galeus",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "monitoring, research, regulate human activities, education, emergency response, Mitigate climate change"
+    ]
+  },
+  {
+    "id": "162",
+    "name": "steller sea lion",
+    "scientificName": "Eumetopias jubatus",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "monitoring, research, regulate human activities, education, protection, emergency response"
+    ]
+  },
+  {
+    "id": "163",
+    "name": "atlantic wolffish",
+    "scientificName": "Anarhichas lupus",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "research, regulate human activities, education, monitoring"
+    ]
+  },
+  {
+    "id": "164",
+    "name": "sowerby's beaked whale",
+    "scientificName": "Mesoplodon bidens",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "NE",
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "monitoring, research, education, regulate human activities, protection, emergency response, "
+    ]
+  },
+  {
+    "id": "165",
+    "name": "humpback whale north pacific population",
+    "scientificName": "Megaptera novaengliae",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "166",
+    "name": "spotted wolffish",
+    "scientificName": "Anarhichas minor",
+    "taxonomicGroup": "Fish",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "research, regulate human activities, education, monitoring"
+    ]
+  },
+  {
+    "id": "167",
+    "name": "acadian flycatcher",
+    "scientificName": "Empidonax virescens",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "monitoring, research, education, protection"
+    ]
+  },
+  {
+    "id": "172",
+    "name": "eastern wood-pewee",
+    "scientificName": "Contopus virens",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "MB",
+      "NB",
+      "NS",
+      "ON",
+      "PE",
+      "QC",
+      "SK"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "174",
+    "name": "golden-winged warbler",
+    "scientificName": "Vermivora chrysoptera",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "MB",
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "monitoring, research, habitat restoration, invasive species removal, protection, education"
+    ]
+  },
+  {
+    "id": "175",
+    "name": "ivory gull",
+    "scientificName": "Pagophila eburnea",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "NL",
+      "NT",
+      "NU"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "protection, research, monitoring, regulate human activities, education,"
+    ]
+  },
+  {
+    "id": "176",
+    "name": "yellow-breasted chat virens subspecies",
+    "scientificName": "Icteria virens virens",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "182",
+    "name": "least bittern",
+    "scientificName": "Ixobrychus exilis",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "MB",
+      "NB",
+      "NS",
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "research, monitoring, protection, habitat restoration, education"
+    ]
+  },
+  {
+    "id": "183",
+    "name": "yellow-breasted chat auricollis subspecies southern mountain population",
+    "scientificName": "Icteria virens auricollis",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "habitat restoration, protection, education, research, monitoring, "
+    ]
+  },
+  {
+    "id": "187",
+    "name": "western harvest mouse dychei subspecies",
+    "scientificName": "Reithrodontomys megalotis dychei",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB"
+    ],
+    "threats": [],
+    "actions": [
+      "NE",
+      "Research and monitoring, Habitat management",
+      "research, monitoring, protection"
+    ]
+  },
+  {
+    "id": "188",
+    "name": "sage thrasher",
+    "scientificName": "Oreoscoptes montanus",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "SK"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Habitat management",
+      "protection, habitat restoration, research, monitoring, "
+    ]
+  },
+  {
+    "id": "190",
+    "name": "swift fox",
+    "scientificName": "Vulpes velox",
+    "taxonomicGroup": "Mammals",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB",
+      "SK"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management, Population management",
+      "research, monitoring, re-establishing populations, protection, regulate human activities, education,"
+    ]
+  },
+  {
+    "id": "194",
+    "name": "western grebe",
+    "scientificName": "Aechmophorus occidentalis",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "SK"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "196",
+    "name": "rocky mountain sculpin eastslope populations",
+    "scientificName": "Cottus sp.",
+    "taxonomicGroup": "Fish",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB"
+    ],
+    "threats": [],
+    "actions": [
+      "NE",
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "monitoring, research, regulate human activities, education,"
+    ]
+  },
+  {
+    "id": "197",
+    "name": "mountain sucker milk river populations",
+    "scientificName": "Catostomus platyrhynchus",
+    "taxonomicGroup": "Fish",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB",
+      "SK"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "200",
+    "name": "long-billed curlew",
+    "scientificName": "Numenius americanus",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "SK"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "protection, regulate human activities, education, research, monitoring,"
+    ]
+  },
+  {
+    "id": "203",
+    "name": "sprague's pipit",
+    "scientificName": "Anthus spragueii",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "MB",
+      "SK"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "monitoring, research, protection, habitat restoration, regulate human activities, education,"
+    ]
+  },
+  {
+    "id": "204",
+    "name": "greater sage-grouse urophasianus subspecies",
+    "scientificName": "Centrocerus urophasianus urophasianus",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "SK"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management, Population management",
+      "research, monitoring, translocation, regulate human activities, protection, habitat restoration, Manage native species negatively impacting species at risk, education, captive breeding,"
+    ]
+  },
+  {
+    "id": "207",
+    "name": "longspine thornyhead",
+    "scientificName": "Sebastolobus altivelis",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "monitoring, research, regulate human activities, education, protection"
+    ]
+  },
+  {
+    "id": "208",
+    "name": "yelloweye rockfish pacific ocean inside waters population",
+    "scientificName": "Sebastes ruberrimus",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "NE"
+    ]
+  },
+  {
+    "id": "209",
+    "name": "yelloweye rockfish pacific ocean outside waters population",
+    "scientificName": "Sebastes ruberrimus",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "NE"
+    ]
+  },
+  {
+    "id": "210",
+    "name": "northern bottlenose whale scotian shelf population",
+    "scientificName": "Hyperodon ampullatus",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "protection, monitoring, research, education, regulate human activities, emergency response, "
+    ]
+  },
+  {
+    "id": "211",
+    "name": "western screech-owl kennicottii subspecies",
+    "scientificName": "Megascops kennicottii kennicottii",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "212",
+    "name": "western screech-owl macfarlanei subspecies",
+    "scientificName": "Megascops kennicottii macfarlanei",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "218",
+    "name": "kirtland's warbler",
+    "scientificName": "Setophaga kirtlandii",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "monitoring, education, research, protection, Manage native species negatively impacting species at risk"
+    ]
+  },
+  {
+    "id": "291",
+    "name": "grass pickerel",
+    "scientificName": "Esox americanus vermiculatus",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "habitat restoration, research, monitoring, education,  regulate human activities, protection,"
+    ]
+  },
+  {
+    "id": "292",
+    "name": "rocky mountain sculpin pacific populations",
+    "scientificName": "Cottus sp.",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "NE"
+    ]
+  },
+  {
+    "id": "306",
+    "name": "mountain beaver",
+    "scientificName": "Aplodontia rufa",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "monitoring, research, education, protection, regulate human activities,"
+    ]
+  },
+  {
+    "id": "308",
+    "name": "american marten newfoundland population",
+    "scientificName": "Martes americana atrata",
+    "taxonomicGroup": "Mammals",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "NL"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "protection, research, regulate human activities, monitoring, education, re-establishing populations, "
+    ]
+  },
+  {
+    "id": "313",
+    "name": "lake chubsucker",
+    "scientificName": "Erimyzon sucetta",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "habitat restoration, education, monitoring, research, regulate human activities,"
+    ]
+  },
+  {
+    "id": "317",
+    "name": "pugnose shiner",
+    "scientificName": "Notropis anogenus",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management, Population management",
+      "regulate human activities, habitat restoration, education, monitoring, research, re-establishing populations,"
+    ]
+  },
+  {
+    "id": "323",
+    "name": "columbia sculpin",
+    "scientificName": "Cottus hubbsi",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "NE",
+      "Outreach and stewardship, Research and monitoring",
+      "monitoring, research, education"
+    ]
+  },
+  {
+    "id": "325",
+    "name": "spotted sucker",
+    "scientificName": "Minytrema melanops",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "habitat restoration, education, monitoring, research,"
+    ]
+  },
+  {
+    "id": "326",
+    "name": "upper great lakes kiyi",
+    "scientificName": "Coregonus kiyi kiyi",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "protection, research, monitoring, education, invasive species removal, regulate human activities"
+    ]
+  },
+  {
+    "id": "331",
+    "name": "nuttall's cottontail nuttallii subspecies",
+    "scientificName": "Sylvilagus nuttalli nuttallii",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "protection, research, monitoring, education, "
+    ]
+  },
+  {
+    "id": "332",
+    "name": "western harvest mouse megalotis subspecies",
+    "scientificName": "Reithrodontomys megalotis megalotis",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "NE",
+      "Research and monitoring, Habitat management",
+      "protection, monitoring, research,"
+    ]
+  },
+  {
+    "id": "335",
+    "name": "flammulated owl",
+    "scientificName": "Otus flammeolus",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "research, monitoring, protection, habitat restoration, education"
+    ]
+  },
+  {
+    "id": "336",
+    "name": "great blue heron fannini subspecies",
+    "scientificName": "Ardea herodias fannini",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "337",
+    "name": "woodland vole",
+    "scientificName": "Microtus pinetorum",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "research, monitoring, protection, education, habitat restoration,"
+    ]
+  },
+  {
+    "id": "338",
+    "name": "lewis's woodpecker",
+    "scientificName": "Melanerpes lewis",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "research, monitoring, habitat restoration, protection, education, regulate human activities, "
+    ]
+  },
+  {
+    "id": "348",
+    "name": "pallid bat",
+    "scientificName": "Antrozous pallidus",
+    "taxonomicGroup": "Mammals",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "habitat restoration, protection, research, education, monitoring, Treat disease, invasive species removal, regulate human activities, "
+    ]
+  },
+  {
+    "id": "351",
+    "name": "white-headed woodpecker",
+    "scientificName": "Picoides albolarvatus",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "habitat restoration, monitoring, research, education,"
+    ]
+  },
+  {
+    "id": "352",
+    "name": "pacific water shrew",
+    "scientificName": "Sorex bendirii",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "monitoring, research, protection, education, habitat restoration, regulate human activities, invasive species removal,  "
+    ]
+  },
+  {
+    "id": "362",
+    "name": "henslow's sparrow",
+    "scientificName": "Ammodramus henslowii",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "protection, habitat restoration, education, research, monitoring,"
+    ]
+  },
+  {
+    "id": "363",
+    "name": "shortnose cisco",
+    "scientificName": "Coregonus reighardi",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring",
+      "education, research, monitoring,"
+    ]
+  },
+  {
+    "id": "366",
+    "name": "townsend's mole",
+    "scientificName": "Scapanus townsendii",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "protection, research, education, monitoring, "
+    ]
+  },
+  {
+    "id": "387",
+    "name": "baird's sparrow",
+    "scientificName": "Ammodramus bairdii",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB",
+      "MB",
+      "SK"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "397",
+    "name": "spring cisco",
+    "scientificName": "Coregonus sp.",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management, Population management",
+      "invasive species removal, regulate human activities, education, research, monitoring, captive breeding, habitat restoration, translocation,"
+    ]
+  },
+  {
+    "id": "409",
+    "name": "king rail",
+    "scientificName": "Rallus elegans",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "monitoring, research, habitat restoration, protection, education,"
+    ]
+  },
+  {
+    "id": "410",
+    "name": "barrow's goldeneye eastern population",
+    "scientificName": "Bucephala islandica",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "NB",
+      "NL",
+      "NS",
+      "PE",
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "research, monitoring, regulate human activities, habitat restoration, emergency response, education, protection, "
+    ]
+  },
+  {
+    "id": "411",
+    "name": "green sturgeon",
+    "scientificName": "Acipenser medirostris",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "research, regulate human activities, monitoring, protection, education, "
+    ]
+  },
+  {
+    "id": "416",
+    "name": "eastern sand darter ontario populations",
+    "scientificName": "Ammocrypta pellucida",
+    "taxonomicGroup": "Fish",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "research, monitoring, education, habitat restoration, protection, re-establishing populations, "
+    ]
+  },
+  {
+    "id": "417",
+    "name": "eastern sand darter quebec populations",
+    "scientificName": "Ammocrypta pellucida",
+    "taxonomicGroup": "Fish",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "research, monitoring, protection, education, habitat restoration, "
+    ]
+  },
+  {
+    "id": "418",
+    "name": "western brook lamprey morrison creek population",
+    "scientificName": "Lampetra richardsoni",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "protection, research, monitoring, education, regulate human activities, habitat restoration"
+    ]
+  },
+  {
+    "id": "422",
+    "name": "shorthead sculpin",
+    "scientificName": "Cottus confusus",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "423",
+    "name": "banded killifish newfoundland populations",
+    "scientificName": "Fundulus diaphanus",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "NL"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "protection, research, monitoring, education, regulate human activities, emergency response"
+    ]
+  },
+  {
+    "id": "424",
+    "name": "northern wolffish",
+    "scientificName": "Anarhichas denticulatus",
+    "taxonomicGroup": "Fish",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "research, regulate human activities, education, monitoring"
+    ]
+  },
+  {
+    "id": "425",
+    "name": "atlantic whitefish",
+    "scientificName": "Coregonus huntsmani",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "NS"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "research, monitoring, protection, education, habitat restoration, re-establishing populations, "
+    ]
+  },
+  {
+    "id": "428",
+    "name": "salish sucker",
+    "scientificName": "Catostomus sp. cf. catostomus",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "NE"
+    ]
+  },
+  {
+    "id": "433",
+    "name": "sei whale pacific population",
+    "scientificName": "Balaenoptera borealis",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "protection, education, monitoring, regulate human activities, research"
+    ]
+  },
+  {
+    "id": "435",
+    "name": "yellow rail",
+    "scientificName": "Coturnicops noveboracensis",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NB",
+      "NT",
+      "ON",
+      "QC",
+      "SK"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "monitoring, research, protection, regulate human activities, education, habitat restoration,"
+    ]
+  },
+  {
+    "id": "437",
+    "name": "harlequin duck eastern population",
+    "scientificName": "Histrionicus histrionicus",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "NB",
+      "NL",
+      "NS",
+      "NU",
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "research, monitoring, regulate human activities, protection, education,"
+    ]
+  },
+  {
+    "id": "438",
+    "name": "bicknell's thrush",
+    "scientificName": "Catharus bicknelli",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "NB",
+      "NS",
+      "QC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "440",
+    "name": "atlantic salmon inner bay of fundy population",
+    "scientificName": "Salmo salar",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "NB",
+      "NS"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management, Population management",
+      "regulate human activities, research, monitoring, education, captive breeding, habitat restoration"
+    ]
+  },
+  {
+    "id": "441",
+    "name": "mountain sucker pacific populations",
+    "scientificName": "Catostomus platyrhynchus",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "446",
+    "name": "buff-breasted sandpiper",
+    "scientificName": "Tryngites subruficollis",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "BC",
+      "MB",
+      "NT",
+      "NU",
+      "ON",
+      "QC",
+      "SK",
+      "YT"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "448",
+    "name": "eastern meadowlark",
+    "scientificName": "Sturnella magna",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "NB",
+      "NS",
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "452",
+    "name": "mountain plover",
+    "scientificName": "Charadrius montanus",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB",
+      "SK"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "protection, monitoring, research, habitat restoration, regulate human activities, education,"
+    ]
+  },
+  {
+    "id": "454",
+    "name": "piping plover circumcinctus subspecies",
+    "scientificName": "Charadrius melodus circumcinctus",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB",
+      "MB",
+      "ON",
+      "SK"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management, Population management",
+      "monitoring, research, Manage native species negatively impacting species at risk, translocation, habitat restoration, education, captive breeding, protection, regulate human activities, re-establishing populations,"
+    ]
+  },
+  {
+    "id": "459",
+    "name": "spotted bat",
+    "scientificName": "Euderma maculatum",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "research, monitoring, protection, education,"
+    ]
+  },
+  {
+    "id": "462",
+    "name": "copper redhorse",
+    "scientificName": "Moxostoma hubbsi",
+    "taxonomicGroup": "Fish",
+    "status": "Endangered",
+    "endemic": {
+      "canada": true,
+      "northAmerica": true
+    },
+    "provinces": [
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "regulate human activities, habitat restoration, protection, captive breeding, education, research, monitoring,"
+    ]
+  },
+  {
+    "id": "463",
+    "name": "wood thrush",
+    "scientificName": "Hylocichla mustelina",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "NB",
+      "NS",
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "465",
+    "name": "red knot rufa subspecies tierra del fuego/patagonia wintering population",
+    "scientificName": "Calidris canutus rufa",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "AB",
+      "MB",
+      "NB",
+      "NL",
+      "NS",
+      "NT",
+      "NU",
+      "ON",
+      "PE",
+      "QC",
+      "SK"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "research, monitoring, protection, regulate human activities, habitat restoration, education"
+    ]
+  },
+  {
+    "id": "468",
+    "name": "horned grebe magdalen islands population",
+    "scientificName": "Podiceps auritus",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "education, regulate human activities, research, monitoring"
+    ]
+  },
+  {
+    "id": "469",
+    "name": "red knot islandica subspecies",
+    "scientificName": "Calidris canutus islandica",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "NT",
+      "NU"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "research, monitoring, regulate human activities, education,"
+    ]
+  },
+  {
+    "id": "470",
+    "name": "red knot roselaari type",
+    "scientificName": "Calidris canutus roselaari type",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC",
+      "NT",
+      "YT"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "research, monitoring, protection, regulate human activities, habitat restoration, education"
+    ]
+  },
+  {
+    "id": "471",
+    "name": "prothonotary warbler",
+    "scientificName": "Protonotaria citrea",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "research, monitoring, habitat restoration, education, protection, regulate human activities,"
+    ]
+  },
+  {
+    "id": "472",
+    "name": "cerulean warbler",
+    "scientificName": "Setophaga cerulea",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "ON",
+      "QC"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "473",
+    "name": "roseate tern",
+    "scientificName": "Sterna dougallii",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "NB",
+      "NS",
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "research, monitoring, protection, education, habitat restoration, Manage native species negatively impacting species at risk, invasive species removal, "
+    ]
+  },
+  {
+    "id": "474",
+    "name": "whooping crane",
+    "scientificName": "Grus americana",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB",
+      "MB",
+      "NT",
+      "SK"
+    ],
+    "threats": [],
+    "actions": [
+      "Habitat management, Population management",
+      "captive breeding, re-establishing populations, habitat restoration"
+    ]
+  },
+  {
+    "id": "480",
+    "name": "savannah sparrow princeps subspecies",
+    "scientificName": "Passerculus sandwichensis princeps",
+    "taxonomicGroup": "Birds",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "NS"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "protection, monitoring, research, education, regulate human activities"
+    ]
+  },
+  {
+    "id": "481",
+    "name": "eastern mole",
+    "scientificName": "Scalopus aquaticus",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "ON"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "monitoring, protection, research, education,"
+    ]
+  },
+  {
+    "id": "483",
+    "name": "piping plover melodus subspecies",
+    "scientificName": "Charadrius melodus melodus",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "NB",
+      "NL",
+      "NS",
+      "PE",
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "protection, education, Manage native species negatively impacting species at risk, regulate human activities, research, monitoring, habitat restoration, emergency response, mitigate climate change,"
+    ]
+  },
+  {
+    "id": "487",
+    "name": "beluga whale st. lawrence estuary population",
+    "scientificName": "Delphinapterus leucas",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "QC"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management, Population management",
+      "regulate human activities, protection, education, emergency response, monitoring, research, habitat restoration"
+    ]
+  },
+  {
+    "id": "490",
+    "name": "frosted glass-whiskers atlantic population",
+    "scientificName": "Sclerophora peronella",
+    "taxonomicGroup": "Lichens",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "NS"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Habitat management",
+      "monitoring, protection, research,"
+    ]
+  },
+  {
+    "id": "491",
+    "name": "bigmouth buffalo saskatchewan-nelson river populations",
+    "scientificName": "Ictiobus cyprinellus",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "MB",
+      "SK"
+    ],
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": "499",
+    "name": "westslope cutthroat trout pacific populations",
+    "scientificName": "Oncorhynchus clarkii lewisi",
+    "taxonomicGroup": "Fish",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Habitat management, Population management",
+      "regulate human activities, re-establishing populations,"
+    ]
+  },
+  {
+    "id": "503",
+    "name": "pink-footed shearwater",
+    "scientificName": "Ardenna creatopus",
+    "taxonomicGroup": "Birds",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "protection, regulate human activities, monitoring, research, education,"
+    ]
+  },
+  {
+    "id": "504",
+    "name": "bowhead whale bering-chukchi-beaufort population",
+    "scientificName": "Balaena mysticetus",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management",
+      "monitoring, education, research, regulate human activities,"
+    ]
+  },
+  {
+    "id": "505",
+    "name": "ord's kangaroo rat",
+    "scientificName": "Dipodomys ordii",
+    "taxonomicGroup": "Mammals",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB",
+      "SK"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Habitat management, Population management",
+      "research, monitoring, regulate human activities, habitat restoration, translocation"
+    ]
+  },
+  {
+    "id": "507",
+    "name": "spotted owl caurina subspecies",
+    "scientificName": "Strix occidentalis caurina",
+    "taxonomicGroup": "Birds",
+    "status": "Endangered",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Research and monitoring, Outreach and stewardship, Habitat management, Population management",
+      "protection, monitoring, research, captive breeding, re-establishing populations, feeding, Manage native species negatively impacting species at risk, habitat restoration, education, regulate human activities,"
+    ]
+  },
+  {
+    "id": "509",
+    "name": "westslope cutthroat trout saskatchewan-nelson rivers populations",
+    "scientificName": "Oncorhynchus clarkii lewisi",
+    "taxonomicGroup": "Fish",
+    "status": "Threatened",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "AB"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management, Population management",
+      "invasive species removal, regulate human activities, education, research, monitoring, habitat restoration, re-establishing populations,"
+    ]
+  },
+  {
+    "id": "510",
+    "name": "harbour porpoise pacific ocean population",
+    "scientificName": "Phocoena phocoena vomerina",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": false
+    },
+    "provinces": [
+      "BC"
+    ],
+    "threats": [],
+    "actions": [
+      "Outreach and stewardship, Research and monitoring, Habitat management",
+      "regulate human activities, monitoring, research, education,"
+    ]
+  },
+  {
+    "id": "511",
+    "name": "black-tailed prairie dog",
+    "scientificName": "Cynomys ludovicianus",
+    "taxonomicGroup": "Mammals",
+    "status": "Special Concern",
+    "endemic": {
+      "canada": false,
+      "northAmerica": true
+    },
+    "provinces": [
+      "SK"
+    ],
+    "threats": [],
+    "actions": []
+  }
+]
