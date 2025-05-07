@@ -7,7 +7,9 @@
 </p>
 
 <p align="center">
-  <img src="./static/logo.png" width=50% height=50%>
+  <a href="https://guthib.lbi.icu/">
+    <img src="./static/logo.png" width=50% height=50%>
+  </a>
 </p>
 
 
