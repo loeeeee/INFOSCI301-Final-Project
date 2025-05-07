@@ -26,7 +26,7 @@
 
 |        Life Below Water        |            Life On Land         |
 |:-------------------------:|:-------------------------:|
-| <a href="https://sdgs.un.org/goals/goal14">  <img src="./static/sdg_14.gif" width=50% height=50%> </a> | <a href="https://sdgs.un.org/goals/goal15"> <img src="./static/sdg_15.gif" width=50% height=5a0%>  </a>|
+| <a href="https://sdgs.un.org/goals/goal14">  <img src="./static/sdg_14.gif" width=50% height=50%> </a> | <a href="https://sdgs.un.org/goals/goal15"> <img src="./static/sdg_15.gif" width=50% height=50%>  </a>|
 
 </div>
 
