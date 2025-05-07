@@ -147,6 +147,7 @@ Professionally, this work involved adhering to academic integrity, implementing 
 ├── data processing/       # Data processing scripts and datasets
 ├── mock_visualization/    # Visualization prototypes
 ├── static/               # Static assets and documentation
+├── docs/                 # Detailed documentation
 └── README.md             # Main project documentation
 ```
 
@@ -181,6 +182,15 @@ The `/static` directory contains various static assets and documentation:
 - `innovation_flowchart.png`: Project flowchart
 - `poster.pdf`: Project poster
 - `report.pdf`: Project report
+
+### Documentation (`/docs`)
+
+The `/docs` directory contains detailed documentation for different aspects of the project:
+- [Setup Guide](./docs/setup_guide.md): Comprehensive setup instructions
+- [Frontend Documentation](./docs/frontend.md): Frontend application details
+- [Backend Documentation](./docs/backend.md): Backend API and services
+- [Data Processing Documentation](./docs/data_processing.md): Data pipeline details
+- [API Documentation](./docs/api.md): API endpoints and usage
 
 ### Getting Started
 
@@ -222,7 +232,7 @@ The `/static` directory contains various static assets and documentation:
 
 - Frontend dependencies: `/app/package.json`
 - Data processing dependencies: `/data processing/requirements.txt`
-- Project documentation: `/app/docs`
+- Project documentation: `/docs`
 
 #### Visualizations and Figures
 
@@ -278,39 +288,3 @@ The `/static` directory contains various static assets and documentation:
 <p align="center">
   <img src="./static/innovation_flowchart.png" width=50% height=50%>
 </p>
-
-<!-- ### Key Goals & Features -->
-<!-- 
-- **Integrate Data:** Combine comprehensive species-at-risk details (CAN-SAR) with long-term population trend data (CSI).
-- **Correlate Status & Trends:** Analyze how official SARA designations (Special Concern, Threatened, Endangered) align with observed population changes since 1970.
-- **Identify Delays:** Investigate potential time lags between population declines and subsequent conservation status changes.
-- **Examine Differential Outcomes:** Explore variations in trends across different taxonomic groups (mammals, fish, etc.) and ecosystems (terrestrial, freshwater, marine).
-- **Effective Communication:** Develop interactive visualizations tailored to policymakers and wildlife managers, leveraging affective visualization principles to enhance understanding and engagement.
-- **Open Science:** Ensure reproducibility by adhering to FAIR principles, using structured data (CSV), and hosting analysis code and visualizations openly on GitHub. -->
-
-<!-- 
-### 📊 Data Sources
-
-1.  **CAN-SAR Database: Canadian Species at Risk Information**
-
-    - **Content:** Information on Canada's legally protected species under the Species at Risk Act (SARA), including listing status (Special Concern, Threatened, Endangered as of March 2021), listing dates, threats, recovery actions, and biological attributes.
-    - **Source:** Naujokaitis-Lewis, I., Endicott, S., & Guezen, J. M. (2022). CAN-SAR: A database of Canadian species at risk information. _Scientific Data_, 9(1), 289.
-    - **Dataset Link/Info:** [https://www.nature.com/articles/s41597-022-01381-8](https://www.nature.com/articles/s41597-022-01381-8)
-    - **Format:** Structured CSV.
-
-2.  **Canadian Species Index (CSI) Dataset**
-    - **Content:** Complementary population abundance time-series data for monitored Canadian native vertebrate species since 1970. Tracks changes in population sizes, providing an integrated measure similar to the global Living Planet Index. Covers >50% of native vertebrates.
-    - **Source:** Environment and Climate Change Canada (ECCC). (2023). Canadian species index. Canadian Environmental Sustainability Indicators program.
-    - **Dataset Link/Info:** [https://open.canada.ca/data/en/dataset/038cdb2a-bff0-4733-9f07-3b8cc6588e08](https://open.canada.ca/data/en/dataset/038cdb2a-bff0-4733-9f07-3b8cc6588e08)
-    - **Format:** CSV. -->
-<!-- 
-### Methodology & Approach
-
-This project integrates the two datasets described above to perform a correlational analysis between conservation status designations and population trajectories. Our approach involves:
-
-1.  **Data Sourcing & Preprocessing:** Identifying, cleaning, and structuring data from CAN-SAR and CSI according to FAIR/CARE principles.
-2.  **Data Integration:** Merging the datasets based on species identifiers to link status information with population trends.
-3.  **Analysis:** Statistically examining the correlation between status changes and population trends, identifying potential leads or lags, and comparing outcomes across groups.
-4.  **Visualization:** Developing interactive visualizations using techniques designed for clarity and impact, including principles of affective visualization to better communicate urgency and ecological realities to the target audience. -->
-
-<!-- The analysis code and visualization techniques are documented and available in this repository to ensure reproducibility. -->
