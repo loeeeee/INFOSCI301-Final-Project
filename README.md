@@ -44,13 +44,13 @@ Python 🦀, TypeScript ☕, React ✌️, and Cline 🥺
 <summary>The Longer List:</summary>
 
 - OpenRouter
+- Gemini ♍
 - Cursor
-- Gemini
+- Linux 🐻‍❄️
 - PyRight
-- Linux
-- CloudFlare Worker
+- CloudFlare Worker 🧑‍🏭
 - Git
-- GitHub
+- GitHub 🐟
 
 <br>
 </details>
