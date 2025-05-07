@@ -1,20 +1,28 @@
 # ![Project Icon](./app/public/logo.ico) Canadian Vertebrate Species at Risk: Integrating Population Trends and Conservation Status 🍁📊
 
-INFOSCI 301 (Spring 2025): Final Project, Course Supervised by Prof. Luyao Zhang
-
 [Demo Web Page](https://guthib.lbi.icu/)
 
-![Fancy Logo](./static/logo.png)
+<p align="center">
+    <img src="./static/logo.png" width=50% height=50%>
+</p>
 
-## Acknowledgements
+## Project Integrity
+
+### Disclaimer
+
+This is the final project submitted to INFOSCI 301 Data Visualization and Information Aesthetics, instructed by Prof. Luyao Zhang at Duke Kunshan University in Spring 2025.
+
+### Acknowledgements
+
+<!-- Acknowledge Professor and Peers -->
 
 We gratefully acknowledge the invaluable guidance and support provided by Professor Luyao (Sunshine) Zhang throughout the duration of the INFOSCI 301 course at Duke Kunshan University. We also thank our peers for their constructive feedback during project discussions, which significantly contributed to the refinement of our work.
 
+<!-- Acknowledge Guest Lecturer -->
+
 We extend special thanks to Professors David Schaaf and Dongping Liu for their inspiring guest lectures. Their insights into data visualization, augmented reality applications, and interdisciplinary approaches deeply enriched our understanding and greatly influenced the development of this project.
 
-We also sincerely thank the authors of the CAN-SAR database (Naujokaitis-Lewis, Endicott, and Guezen) and the Canadian Species Index dataset (Environment and Climate Change Canada) for making their valuable data publicly accessible. Their work laid the essential foundation for our research and analysis.
-
-## Author Contributions
+### Contribution Statement
 
 **Jiesen Huang** led the design and implementation of the data visualizations, created prototype figures, selected visualization techniques, and contributed to the literature review.
 
@@ -24,9 +32,30 @@ We also sincerely thank the authors of the CAN-SAR database (Naujokaitis-Lewis, 
 
 All authors jointly contributed to the final analysis, interpretation, and visualization platform development.
 
-## Competing Interests
+### Competing Interests
 
-The authors declare no competing interests.
+The authors have no competing interests.
+
+### Non-exhaust list of tools used
+
+Major Tools:
+
+Python 🦀, TypeScript ☕, React ✌️, and Cline 🥺
+
+<details>
+<summary>The Longer List:</summary>
+
+- OpenRouter
+- Gemini ♍
+- Cursor
+- Linux 🐻‍❄️
+- PyRight
+- CloudFlare Worker 🧑‍🏭
+- Git
+- GitHub 🐟
+
+<br>
+</details>
 
 
 ## Overview
