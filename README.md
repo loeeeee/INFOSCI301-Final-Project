@@ -26,7 +26,7 @@
 
 |                |                     |
 |:-------------------------:|:-------------------------:|
-| <a href="https://sdgs.un.org/goals/goal14">  ![](./static/sdg_14.gif) </a> | <a href="https://sdgs.un.org/goals/goal15">  ![](./static/sdg_15.gif) </a>|
+| <a href="https://sdgs.un.org/goals/goal14">  <img src="./static/sdg_14.gif" width=30% height=30%> </a> | <a href="https://sdgs.un.org/goals/goal15"> <img src="./static/sdg_15.gif" width=30% height=30%>  </a>|
 
 </div>
 
