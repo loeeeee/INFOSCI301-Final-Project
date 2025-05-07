@@ -6,6 +6,10 @@
     <img src="./static/logo.png" width=50% height=50%>
 </p>
 
+<p align="center">
+    <img src="./static/download_poster" width=30% height=30%>
+</p>
+
 ## Project Integrity
 
 ### Disclaimer
