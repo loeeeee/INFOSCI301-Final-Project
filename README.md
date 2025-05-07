@@ -34,6 +34,27 @@ All authors jointly contributed to the final analysis, interpretation, and visua
 
 The authors have no competing interests.
 
+### Non-exhaust list of tools used
+
+Major Tools:
+
+Python 🦀, TypeScript ☕, React ✌️, and Cline 🤖
+
+<details>
+<summary>The Longer List:</summary>
+
+- OpenRouter
+- Cursor
+- Gemini
+- PyRight
+- Linux
+- CloudFlare Worker
+- Git
+- GitHub
+
+<br>
+</details>
+
 
 ## Overview
 
