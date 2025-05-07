@@ -4,11 +4,13 @@
 
 ![Fancy Logo](./static/logo.png)
 
-## Disclaimer
+## Project Integrity
+
+### Disclaimer
 
 This is the final project submitted to INFOSCI 301 Data Visualization and Information Aesthetics, instructed by Prof. Luyao Zhang at Duke Kunshan University in Spring 2025.
 
-## Acknowledgements
+### Acknowledgements
 
 <!-- Acknowledge Professor and Peers -->
 
@@ -18,7 +20,7 @@ We gratefully acknowledge the invaluable guidance and support provided by Profes
 
 We extend special thanks to Professors David Schaaf and Dongping Liu for their inspiring guest lectures. Their insights into data visualization, augmented reality applications, and interdisciplinary approaches deeply enriched our understanding and greatly influenced the development of this project.
 
-## Contribution Statement
+### Contribution Statement
 
 **Jiesen Huang** led the design and implementation of the data visualizations, created prototype figures, selected visualization techniques, and contributed to the literature review.
 
@@ -28,9 +30,9 @@ We extend special thanks to Professors David Schaaf and Dongping Liu for their i
 
 All authors jointly contributed to the final analysis, interpretation, and visualization platform development.
 
-## Competing Interests
+### Competing Interests
 
-The authors declare no competing interests.
+The authors have no competing interests.
 
 
 ## Overview
