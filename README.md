@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-    <img src="./static/download_poster" width=30% height=30%>
+    <img src="./static/download_poster.gif" width=30% height=30%>
 </p>
 
 ## Project Integrity
