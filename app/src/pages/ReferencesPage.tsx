@@ -7,7 +7,7 @@ const ReferencesPage: React.FC = () => {
       <div className="mb-8">
         <h1 className="text-3xl font-bold mb-2 hc:text-white">References & Acknowledgements</h1>
         <p className="text-gray-600 hc:text-gray-300">
-          Data sources, references, and acknowledgements for the Canadian Species Data Visualization project.
+          Data sources, references, and acknowledgements for the Canadian Vertebrate Species at Risk Visualization project.
         </p>
       </div>
 

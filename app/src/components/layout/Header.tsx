@@ -12,7 +12,7 @@ const Header: React.FC = () => {
             className="h-12 w-12 mr-3 rounded-full bg-white hc:bg-white hc:border hc:border-white"
           />
           <Link to="/" className="text-2xl font-bold hc:text-white cb:text-black">
-            Canadian Species Data Visualization
+            Canadian Vertebrate Species at Risk Visualization
           </Link>
         </div>
         <nav>
