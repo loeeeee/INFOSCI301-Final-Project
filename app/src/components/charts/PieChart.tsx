@@ -37,8 +37,6 @@ interface PieChartProps {
 // High contrast color palette (consistent with other charts)
 const hcPieColors = ['#FFFF00', '#00FFFF', '#FF00FF', '#00FF00', '#FFA500', '#ADFF2F'];
 const hcTextColor = '#FFFFFF';
-const hcTooltipBg = '#000000';
-const hcTooltipBorder = '#AAAAAA';
 
 // Default colors
 const defaultTextColor = '#333333';
@@ -81,10 +79,13 @@ const CustomTooltip: React.FC<CustomTooltipInternalProps> = ({
 };
 
 interface ActiveShapeProps {
-  cx: number; cy: number;
-  innerRadius: number; outerRadius: number;
-  startAngle: number; endAngle: number;
-  fill: string; // This fill will be the HC color if in HC mode
+  cx: number;
+  cy: number;
+  innerRadius: number;
+  outerRadius: number;
+  startAngle: number;
+  endAngle: number;
+  fill: string;
   payload: DataPoint;
   value: number;
   isHighContrastMode?: boolean;
@@ -138,7 +139,6 @@ const PieChart: React.FC<PieChartProps> = ({
   }, [controlledActiveIndex]);
   
   const currentTitleColor = isHighContrastMode ? hcTextColor : defaultTextColor;
-  const currentLabelColor = isHighContrastMode ? hcTextColor : defaultLabelColor;
   const currentLegendColor = isHighContrastMode ? hcTextColor : defaultTextColor;
 
   // Function to determine slice color
@@ -167,12 +167,12 @@ const PieChart: React.FC<PieChartProps> = ({
             dataKey={dataKey}
             nameKey={nameKey}
             labelLine={{ stroke: isHighContrastMode ? hcTextColor : '#888' }}
-            label={({ percent, name, value }) => {
+            label={({ percent }) => {
               const labelFill = isHighContrastMode ? hcTextColor : defaultLabelColor;
               return <text x={0} y={0} fill={labelFill} fontSize={12} textAnchor="middle">{`${(percent * 100).toFixed(0)}%`}</text>;
             }}
             activeIndex={internalActiveIndex}
-            activeShape={(props) => renderActiveShape({...props, isHighContrastMode}) }
+            activeShape={(props: any) => renderActiveShape({...props, isHighContrastMode}) }
             onMouseEnter={(_, index) => setInternalActiveIndex(index)}
             onMouseLeave={() => controlledActiveIndex === undefined && setInternalActiveIndex(undefined)}
           >

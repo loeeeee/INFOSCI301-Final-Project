@@ -44,7 +44,6 @@ const hcStrokeColor = '#FFFFFF';
 const hcDefaultFill = '#333333'; // Dark gray for no data in HC
 const hcHoverFill = '#FFFF00';   // Bright Yellow hover
 const hcPressedFill = '#00FFFF';  // Bright Cyan pressed
-const hcTextColor = '#FFFFFF';
 
 interface CanadaMapProps {
   onProvinceClick?: (province: string, provinceName: string) => void;

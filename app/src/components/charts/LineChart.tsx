@@ -39,15 +39,11 @@ interface LineChartProps {
 const hcLineColors = ['#FFFF00', '#00FFFF', '#FF00FF', '#00FF00', '#FFA500', '#ADFF2F']; // Yellow, Cyan, Magenta, Lime, Orange, GreenYellow
 const hcAxisColor = '#FFFFFF';
 const hcGridColor = '#555555';
-const hcTooltipBg = '#000000';
-const hcTooltipBorder = '#AAAAAA';
 const hcTextColor = '#FFFFFF';
 
 // Default colors (approximate, Recharts defaults might vary slightly)
 const defaultAxisColor = '#666666';
 const defaultGridColor = '#cccccc';
-const defaultTooltipBg = '#FFFFFF';
-const defaultTooltipBorder = '#dddddd';
 const defaultTextColor = '#333333';
 
 // Color-Blind friendly palette (Example: Paul Tol Vibrant / IBM Color Blind Safe)
