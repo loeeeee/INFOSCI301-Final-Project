@@ -19,7 +19,7 @@
 
 |           Report          |          Poster           |
 |:-------------------------:|:-------------------------:|
-| <a href="static/301_Chenshuhao_Qin_Jiesen_Huang_Yizhou_Bi_Final_Project.pdf">  ![](./static/download.gif) </a> | <a href="static/poster.pdf">  ![](./static/download.gif) </a>|
+| <a href="static/report.pdf">  ![](./static/download.gif) </a> | <a href="static/poster.pdf">  ![](./static/download.gif) </a>|
 
 </div>
 
