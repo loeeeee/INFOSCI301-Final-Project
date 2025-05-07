@@ -18,10 +18,6 @@ We gratefully acknowledge the invaluable guidance and support provided by Profes
 
 We extend special thanks to Professors David Schaaf and Dongping Liu for their inspiring guest lectures. Their insights into data visualization, augmented reality applications, and interdisciplinary approaches deeply enriched our understanding and greatly influenced the development of this project.
 
-<!-- Acknowledge Database Author -->
-
-We also sincerely thank the authors of the CAN-SAR database (Naujokaitis-Lewis, Endicott, and Guezen) and the Canadian Species Index dataset (Environment and Climate Change Canada) for making their valuable data publicly accessible. Their work laid the essential foundation for our research and analysis.
-
 ## Contribution Statement
 
 **Jiesen Huang** led the design and implementation of the data visualizations, created prototype figures, selected visualization techniques, and contributed to the literature review.
