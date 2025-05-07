@@ -9,14 +9,14 @@ load_dotenv()
 print("Attempting to load environment variables from .env file...")
 
 # --- Configuration ---
-csv_file_path = 'CAN-SAR_database.csv'
+csv_file_path = 'data/CAN-SAR_database.csv'
 year_column = 'year_published'
 species_column = 'common_name' # Using common_name as requested
 min_year = 1970
 max_year = 2018
 target_categories = ['bird', 'mammal', 'fish']
 # Define the output filename
-output_csv_file = 'processed_CAN-SAR_vertebrates_1970-2018_async.csv'
+output_csv_file = 'data/processed_CAN-SAR_vertebrates_1970-2018_async.csv'
 batch_size = 50
 delay_between_batches = 2 # Seconds to wait between batches
 openrouter_model = "openai/gpt-4.1" 
