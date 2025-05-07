@@ -29,7 +29,38 @@
 
 ## Table of Content
 
-> This is a place holder
+- [ Canadian Vertebrate Species at Risk: Integrating Population Trends and Conservation Status 🍁📊](#-canadian-vertebrate-species-at-risk-integrating-population-trends-and-conservation-status-)
+  - [Deliverables](#deliverables)
+    - [Demo Video](#demo-video)
+  - [Table of Content](#table-of-content)
+  - [Project Integrity](#project-integrity)
+    - [Disclaimer](#disclaimer)
+    - [Acknowledgements](#acknowledgements)
+    - [Contribution Statement](#contribution-statement)
+    - [Competing Interests](#competing-interests)
+    - [Non-exhaust list of tools used](#non-exhaust-list-of-tools-used)
+  - [Project Information](#project-information)
+    - [Primary Research Question](#primary-research-question)
+    - [Contribution to SDGs](#contribution-to-sdgs)
+    - [Intellectual and Professional Growth](#intellectual-and-professional-growth)
+  - [Navigation Instructions](#navigation-instructions)
+    - [Frontend Application (`/app`)](#frontend-application-app)
+    - [Data Processing (`/data processing`)](#data-processing-data-processing)
+    - [Static Assets (`/static`)](#static-assets-static)
+    - [Getting Started](#getting-started)
+      - [Frontend Setup](#frontend-setup)
+      - [Data Processing Setup](#data-processing-setup)
+    - [Key Resources](#key-resources)
+      - [Code for Simulations and Visualizations](#code-for-simulations-and-visualizations)
+      - [Sample Datasets](#sample-datasets)
+      - [Documentation](#documentation)
+      - [Visualizations and Figures](#visualizations-and-figures)
+    - [Notes](#notes)
+  - [Reference](#reference)
+    - [CAN-SAR](#can-sar)
+    - [Canadian species index](#canadian-species-index)
+  - [Appendix](#appendix)
+    - [Innovation Flowchart](#innovation-flowchart)
 
 ## Project Integrity
 
