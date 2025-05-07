@@ -1,66 +1,111 @@
-# CAN-SAR Data Processing to Fit Canadian Species Index's Time Frame and Categorization
+# Data Processing Pipeline
 
-**Purpose:**
+This directory contains the data processing scripts and utilities for the Canadian Vertebrate Species at Risk project. The main script processes the CAN-SAR database to categorize and analyze vertebrate species data.
 
-This script processes the `CAN-SAR_database.csv` file to extract and categorize information about vertebrate species (birds, mammals, fish) assessed within a specific timeframe (1970-2018).
+## Overview
 
-**Processing Principles:**
+The data processing pipeline performs the following tasks:
+1. Loads and validates the CAN-SAR database
+2. Filters records by year (1970-2018)
+3. Categorizes species into birds, mammals, and fish using OpenRouter API
+4. Generates a processed dataset with species categories
 
-1.  **Loading:** Loads the `CAN-SAR_database.csv` file, attempting UTF-8 encoding first, then falling back to Latin-1 if needed.
-2.  **Year Filtering:** Filters the records based on the `year_published` column to include only assessments published between 1970 and 2018 (inclusive).
-3.  **AI Categorization:** Uses the species' `common_name` and an external AI model via the OpenRouter API to classify each unique species into 'bird', 'mammal', 'fish', or 'other'.
-    * **Efficiency:** API calls are made concurrently in batches using Python's `asyncio` library to speed up processing for large datasets.
-    * **Robustness:** Includes refined prompts and error handling to manage potential API issues or unexpected model responses.
-4.  **Category Filtering:** Filters the dataset again to retain only the records categorized as 'bird', 'mammal', or 'fish'.
-5.  **Output:** Saves the final filtered and categorized data to a new CSV file (`processed_CAN-SAR_vertebrates_1970-2018_async.csv`).
+## Files
 
-**Setup:**
+- `data_process.py`: Main data processing script
+- `requirements.txt`: Python dependencies
+- Input/Output files:
+  - Input: `CAN-SAR_database.csv` (located in `/data` directory)
+  - Output: `processed_CAN-SAR_vertebrates_1970-2018_async.csv` (saved to `/data` directory)
 
-1.  **Prerequisites:**
-    * Python 3.7+ installed.
-    * The `CAN-SAR_database.csv` file.
+## Dependencies
 
-2.  **Create Virtual Environment:**
-    * Open your terminal or command prompt in the project directory.
-    * Create a virtual environment (named `.venv` here, but can be any name):
-        ```bash
-        python -m venv .venv
-        ```
-    * Activate the virtual environment:
-        * **Windows (Command Prompt/PowerShell):**
-            ```bash
-            .\.venv\Scripts\activate
-            ```
-        * **macOS/Linux (Bash/Zsh):**
-            ```bash
-            source .venv/bin/activate
-            ```
-        *(You should see `(.venv)` at the beginning of your terminal prompt)*
+The script requires the following Python packages:
+- `pandas>=2.0.0`: For data manipulation and analysis
+- `python-dotenv>=1.0.0`: For loading environment variables
+- `openai>=1.0.0`: For OpenRouter API integration
+- `tabulate>=0.9.0`: For pretty-printing DataFrames
 
-3.  **Install Packages:**
-    * Install the required packages using pip:
-        ```bash
-        pip install -r requirements.txt
-        ```
+## Setup
 
-4.  **Set Up API Key (.env file):**
-    * Create a file named `.env` (note the leading dot) in the project directory.
-    * Add your OpenRouter API key to this file like so:
-        ```
-        OPENROUTER_API_KEY='your-openrouter-key-here'
-        ```
-        *(Replace `your-openrouter-key-here` with your actual key)*
+1. Create a Python virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
-**Running the Script:**
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-1.  Ensure your virtual environment is active.
-2.  Make sure the `CAN-SAR_database.csv` file and your `.env` file are in the same directory as the Python script (e.g., `process_cansar.py`).
-3.  Run the script from your terminal:
-    ```bash
-    python data_process.py
-    ```
-4.  The script will print progress updates to the console. API calls may take some time depending on the number of unique species and API responsiveness.
+3. Create a `.env` file in the project root with your OpenRouter API key:
+   ```
+   OPENROUTER_API_KEY=your_api_key_here
+   ```
 
-**Output:**
+## Usage
 
-* A new CSV file named `processed_CAN-SAR_vertebrates_1970-2018_async.csv` will be created in the same directory, containing the filtered and categorized data.
+Run the data processing script:
+```bash
+python data_process.py
+```
+
+### Script Behavior
+
+The script will:
+1. Load the CAN-SAR database from the `/data` directory
+2. Filter records to include only years 1970-2018
+3. Process species names in batches of 50 using OpenRouter API
+4. Categorize species into:
+   - Birds
+   - Mammals
+   - Fish
+   - Other (non-target species)
+5. Save the processed data to `/data/processed_CAN-SAR_vertebrates_1970-2018_async.csv`
+
+### Features
+
+- **Asynchronous Processing**: Uses Python's `asyncio` for efficient API calls
+- **Batch Processing**: Processes species in batches to manage API rate limits
+- **Error Handling**: Robust error handling for API calls and data processing
+- **Progress Tracking**: Displays progress information during processing
+- **Data Validation**: Validates input data and required columns
+
+### Output Format
+
+The processed CSV file contains all original columns plus:
+- `Category`: The species category (bird, mammal, fish, or other)
+- Filtered to include only vertebrate species (birds, mammals, fish)
+
+## Error Handling
+
+The script includes error handling for:
+- Missing or invalid input files
+- API connection issues
+- Invalid species names
+- Missing required columns
+- Data type conversion errors
+
+## Notes
+
+- The script uses OpenRouter API for species categorization
+- Processing time depends on the number of unique species and API response times
+- A delay of 2 seconds is added between batches to respect API rate limits
+- The script will create the output file in the `/data` directory
+
+## Troubleshooting
+
+Common issues and solutions:
+1. **API Key Error**: Ensure your `.env` file contains a valid OpenRouter API key
+2. **File Not Found**: Verify that `CAN-SAR_database.csv` exists in the `/data` directory
+3. **Permission Error**: Check write permissions in the `/data` directory
+4. **API Rate Limits**: If hitting rate limits, increase the `delay_between_batches` value
+
+## Contributing
+
+When modifying the script:
+1. Maintain the existing error handling
+2. Keep the batch processing approach
+3. Update the documentation for any new features
+4. Test with a small dataset before processing the full database
