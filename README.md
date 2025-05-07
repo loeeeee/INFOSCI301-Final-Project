@@ -2,7 +2,9 @@
 
 [Demo Web Page](https://guthib.lbi.icu/)
 
-![Fancy Logo](./static/logo.png){ width = 500px }
+<p align="center">
+    <img src="./static/logo.png" width=50% height=50%>
+</p>
 
 ## Project Integrity
 
