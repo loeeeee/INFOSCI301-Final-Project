@@ -2,7 +2,7 @@
 
 [Demo Web Page](https://guthib.lbi.icu/)
 
-![Fancy Logo](./static/logo.png)
+![Fancy Logo](./static/logo.png){ width = 500px }
 
 ## Project Integrity
 
