@@ -27,42 +27,81 @@ const PROVINCE_CODES: Record<string, string> = {
   "YT": "Yukon"
 };
 
-// Color scale for the map
-const COLOR_SCALE = [
-  "#edf8fb",
-  "#ccece6",
-  "#99d8c9",
-  "#66c2a4",
-  "#41ae76",
-  "#238b45",
-  "#005824"
+// Default Color scale
+const DEFAULT_COLOR_SCALE = [
+  "#edf8fb", "#ccece6", "#99d8c9", "#66c2a4", "#41ae76", "#238b45", "#005824"
 ];
+// High Contrast Color Scale (e.g., shades of yellow/orange)
+const HC_COLOR_SCALE = [
+  '#FFFFE0', '#FFFACD', '#FAFAD2', '#FFEFD5', '#FFE4B5', '#FFDAB9', '#FFFF00' // Light Yellows to Bright Yellow
+];
+// Color Blind Friendly Scale (e.g., Viridis or Blue-Yellow-Brown)
+const CB_COLOR_SCALE = [
+  '#fde725', '#addc30', '#5ec962', '#28ae80', '#21918c', '#3b528b', '#440154' // Viridis example
+];
+// Other HC Colors
+const hcStrokeColor = '#FFFFFF';
+const hcDefaultFill = '#333333'; // Dark gray for no data in HC
+const hcHoverFill = '#FFFF00';   // Bright Yellow hover
+const hcPressedFill = '#00FFFF';  // Bright Cyan pressed
+const hcTextColor = '#FFFFFF';
 
 interface CanadaMapProps {
   onProvinceClick?: (province: string, provinceName: string) => void;
   width?: number;
   height?: number;
   showBaseMap?: boolean;
+  isHighContrastMode?: boolean;
+  isColorBlindMode?: boolean;
 }
 
 const CanadaMap: React.FC<CanadaMapProps> = ({ 
   onProvinceClick,
   width = 800,
   height = 500,
-  showBaseMap = false
+  showBaseMap = false,
+  isHighContrastMode = false,
+  isColorBlindMode = false
 }) => {
   const { provinces, loading } = useData();
   const [tooltipContent, setTooltipContent] = useState("");
   const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
   const [showTooltip, setShowTooltip] = useState(false);
 
+  // Determine current color scale and defaults based on modes
+  let currentScale: string[];
+  let currentDefaultFill: string;
+  let currentStroke: string;
+  let currentHoverFill: string;
+  let currentPressedFill: string;
+
+  if (isColorBlindMode) {
+    currentScale = CB_COLOR_SCALE;
+    currentDefaultFill = '#bdbdbd'; // Medium grey for CB no data
+    currentStroke = isHighContrastMode ? hcStrokeColor : "#FFFFFF"; // Use HC stroke if HC is also on
+    currentHoverFill = '#0077BB'; // CB Blue hover
+    currentPressedFill = '#EE7733'; // CB Orange pressed
+  } else if (isHighContrastMode) {
+    currentScale = HC_COLOR_SCALE;
+    currentDefaultFill = hcDefaultFill;
+    currentStroke = hcStrokeColor;
+    currentHoverFill = hcHoverFill;
+    currentPressedFill = hcPressedFill;
+  } else {
+    currentScale = DEFAULT_COLOR_SCALE;
+    currentDefaultFill = "#F5F5F5";
+    currentStroke = "#FFFFFF";
+    currentHoverFill = "#FFD700"; // Default Gold hover
+    currentPressedFill = "#E42";   // Default Reddish pressed
+  }
+
   // Function to determine province color based on species count
   const getProvinceColor = (provinceCode: string) => {
-    if (!provinces.length) return COLOR_SCALE[0];
+    if (!provinces.length) return currentScale[0];
     
     const provinceData = provinces.find(p => p.province === provinceCode);
     
-    if (!provinceData) return "#F5F5F5"; // Light gray for no data
+    if (!provinceData) return currentDefaultFill;
     
     // Calculate color based on total species count relative to other provinces
     const allCounts = provinces.map(p => p.totalSpecies);
@@ -77,11 +116,11 @@ const CanadaMap: React.FC<CanadaMapProps> = ({
     
     // Convert normalized value to color index
     const colorIndex = Math.min(
-      Math.floor(normalizedCount * COLOR_SCALE.length),
-      COLOR_SCALE.length - 1
+      Math.floor(normalizedCount * currentScale.length),
+      currentScale.length - 1
     );
     
-    return COLOR_SCALE[colorIndex];
+    return currentScale[colorIndex];
   };
 
   // Function to extract province code from geography properties
@@ -150,42 +189,19 @@ const CanadaMap: React.FC<CanadaMapProps> = ({
   if (loading) {
     return (
       <div className="flex justify-center items-center h-64">
-        <div className="text-xl font-semibold">Loading map data...</div>
+        <div className="text-xl font-semibold hc:text-white">Loading map data...</div>
       </div>
     );
   }
 
   return (
     <div className="relative w-full">
-      {/* Base map layer with natural earth styling */}
-      {showBaseMap && (
+      {/* Base map only shown if !HC and !CB and showBaseMap */}
+      {showBaseMap && !isHighContrastMode && !isColorBlindMode && (
         <div className="absolute top-0 left-0 w-full h-full z-0">
-          {/* Primary base map styling */}
-          <div 
-            className="absolute top-0 left-0 w-full h-full" 
-            style={{ backgroundColor: '#d4e6f1', opacity: 0.4 }} 
-          />
-          
-          {/* Overlay for terrain effect */}
-          <div 
-            className="absolute top-0 left-0 w-full h-full" 
-            style={{ 
-              backgroundImage: 'url("https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json")',
-              backgroundSize: 'contain',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat',
-              opacity: 0.3
-            }} 
-          />
-          
-          {/* Water texture */}
-          <div 
-            className="absolute top-0 left-0 w-full h-full" 
-            style={{ 
-              backgroundImage: 'radial-gradient(circle at 70% 50%, #b3d9ff 0%, rgba(179, 217, 255, 0) 75%), radial-gradient(circle at 30% 50%, #b3d9ff 0%, rgba(179, 217, 255, 0) 75%)',
-              opacity: 0.6
-            }} 
-          />
+          <div className="absolute top-0 left-0 w-full h-full" style={{ backgroundColor: '#d4e6f1', opacity: 0.4 }} />
+          <div className="absolute top-0 left-0 w-full h-full" style={{ backgroundImage: 'url("https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json")', backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', opacity: 0.3 }} />
+          <div className="absolute top-0 left-0 w-full h-full" style={{ backgroundImage: 'radial-gradient(circle at 70% 50%, #b3d9ff 0%, rgba(179, 217, 255, 0) 75%), radial-gradient(circle at 30% 50%, #b3d9ff 0%, rgba(179, 217, 255, 0) 75%)', opacity: 0.6 }} />
         </div>
       )}
       
@@ -201,23 +217,28 @@ const CanadaMap: React.FC<CanadaMapProps> = ({
             {({ geographies }) =>
               geographies.map(geo => {
                 const provinceCode = getProvinceCode(geo);
+                const fill = getProvinceColor(provinceCode);
+                const stroke = currentStroke;
+                const hoverFill = currentHoverFill;
+                const pressedFill = currentPressedFill;
+
                 return (
                   <Geography
                     key={geo.rsmKey}
                     geography={geo}
-                    fill={getProvinceColor(provinceCode)}
-                    stroke="#FFFFFF"
+                    fill={fill}
+                    stroke={stroke}
                     strokeWidth={0.5}
                     style={{
                       default: { outline: "none" },
-                      hover: { outline: "none", fill: "#FFD700" },
-                      pressed: { outline: "none", fill: "#E42" }
+                      hover: { outline: "none", fill: hoverFill },
+                      pressed: { outline: "none", fill: pressedFill }
                     }}
                     onMouseEnter={(event) => handleMouseEnter(event, geo)}
                     onMouseLeave={handleMouseLeave}
                     onClick={() => handleProvinceClick(geo)}
-                    // Add some opacity to see the base map underneath if it's enabled
-                    opacity={showBaseMap ? 0.85 : 1}
+                    // Full opacity unless base map shown in default mode
+                    opacity={showBaseMap && !isHighContrastMode && !isColorBlindMode ? 0.85 : 1}
                   />
                 );
               })
@@ -226,14 +247,14 @@ const CanadaMap: React.FC<CanadaMapProps> = ({
         </ZoomableGroup>
       </ComposableMap>
       
-      {/* Fixed tooltip positioning to work better with the viewport */}
+      {/* Tooltip styling uses HC classes */}
       {showTooltip && (
         <div
-          className="absolute bg-white p-2 rounded shadow-md text-sm z-20 pointer-events-none"
+          className="absolute p-2 rounded shadow-md text-sm z-20 pointer-events-none bg-white hc:bg-black hc:text-white hc:border hc:border-gray-600"
           style={{
             left: tooltipPosition.x,
-            top: tooltipPosition.y - 40,
-            transform: 'translate(0, -100%)',
+            top: tooltipPosition.y - 10,
+            transform: 'translate(5px, -100%)',
             whiteSpace: 'pre-line'
           }}
         >
@@ -241,14 +262,14 @@ const CanadaMap: React.FC<CanadaMapProps> = ({
         </div>
       )}
       
-      {/* Color Legend */}
+      {/* Legend styling uses HC classes and currentScale */}
       <div className="flex items-center justify-center mt-2 relative z-10">
-        <div className="flex space-x-1 items-center text-xs bg-white bg-opacity-75 p-1 rounded">
+        <div className="flex space-x-1 items-center text-xs p-1 rounded bg-white bg-opacity-75 hc:bg-gray-900 hc:bg-opacity-90 hc:text-white">
           <div className="mr-1">Species Density:</div>
-          {COLOR_SCALE.map((color, i) => (
+          {currentScale.map((color, i) => (
             <div 
               key={i} 
-              className="w-6 h-3"
+              className="w-6 h-3 border border-gray-400 hc:border-gray-600"
               style={{ backgroundColor: color }}
               title={`Level ${i+1}`}
             />

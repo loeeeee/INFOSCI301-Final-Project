@@ -3,9 +3,11 @@ import LineChart from '../components/charts/LineChart';
 import BarChart from '../components/charts/BarChart';
 import PageWrapper from '../components/layout/PageWrapper';
 import { useData } from '../context/DataContext';
+import { useAccessibility } from '../context/AccessibilityContext';
 
 const HomePage: React.FC = () => {
   const { csiTrends, statusOverTime, loading, error } = useData();
+  const { isHighContrastMode, isColorBlindMode } = useAccessibility();
   const [activeGroup, setActiveGroup] = useState<string>('all');
 
   // Function to prepare status data for the bar chart
@@ -65,7 +67,7 @@ const HomePage: React.FC = () => {
     return (
       <PageWrapper>
         <div className="flex justify-center items-center h-64">
-          <div className="text-xl font-semibold text-red-600">
+          <div className="text-xl font-semibold text-red-600 hc:text-yellow-400">
             Error loading data: {error.message}
           </div>
         </div>
@@ -77,51 +79,17 @@ const HomePage: React.FC = () => {
     <PageWrapper>
       <div className="mb-8">
         <h1 className="text-3xl font-bold mb-2">Population Trends vs. Conservation Status</h1>
-        <p className="text-gray-600">
+        <p className="text-gray-600 hc:text-gray-300">
           This visualization shows the correlation between Canadian vertebrate population trends (CSI)
           and species conservation status (CAN-SAR) over time (1970-2018).
         </p>
       </div>
 
-      {/* Taxonomic Group Filter */}
-      <div className="mb-6">
-        <div className="flex flex-wrap gap-3 justify-center">
-          <button 
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-colors 
-              ${activeGroup === 'all' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
-            onClick={() => setActiveGroup('all')}
-          >
-            All Groups
-          </button>
-          <button 
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-colors 
-              ${activeGroup === 'birds' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
-            onClick={() => setActiveGroup('birds')}
-          >
-            Birds
-          </button>
-          <button 
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-colors 
-              ${activeGroup === 'mammals' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
-            onClick={() => setActiveGroup('mammals')}
-          >
-            Mammals
-          </button>
-          <button 
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-colors 
-              ${activeGroup === 'fish' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
-            onClick={() => setActiveGroup('fish')}
-          >
-            Fish
-          </button>
-        </div>
-      </div>
-
       <div className="grid grid-cols-1 gap-8 mb-12">
         {/* CSI Trends Chart */}
-        <div className="bg-white p-6 rounded-lg shadow-md">
+        <div className="bg-white p-6 rounded-lg shadow-md hc:bg-black hc:border hc:border-gray-700">
           <h2 className="text-xl font-semibold mb-4">Canadian Species Index (CSI) Trends</h2>
-          <div className="border border-gray-200 rounded-md p-4 bg-gray-50">
+          <div className="border border-gray-200 rounded-md p-4 bg-gray-50 hc:bg-gray-900 hc:border-gray-700">
             <LineChart
               data={csiTrends as any[]}
               lines={[
@@ -132,18 +100,62 @@ const HomePage: React.FC = () => {
               ]}
               yAxisLabel="Index (1970 = 0)"
               yAxisDomain={[-100, 100]}
+              isHighContrastMode={isHighContrastMode}
+              isColorBlindMode={isColorBlindMode}
             />
           </div>
-          <div className="mt-4 text-sm text-gray-600">
+          <div className="mt-4 text-sm text-gray-600 hc:text-gray-300">
             <p>The Canadian Species Index shows population trends for vertebrate species from 1970-2018.</p>
             <p>Note the declining trends for mammals and fish populations, while birds show more stability.</p>
           </div>
         </div>
 
+        {/* Taxonomic Group Filter */}
+        <div className="my-6">
+          <div className="flex flex-wrap gap-3 justify-center">
+            <button
+              onClick={() => setActiveGroup('all')}
+              className={`px-4 py-2 rounded-lg transition-colors duration-150 ease-in-out
+                          ${activeGroup === 'all' ? 
+                            'bg-theme-red text-white hc:bg-yellow-400 hc:text-black hc:border hc:border-yellow-600 cb:bg-theme-beige cb:text-black' : 
+                            'bg-gray-200 hover:bg-gray-300 hc:bg-gray-700 hc:text-white hc:hover:bg-gray-600'}`}
+            >
+              All Vertebrates
+            </button>
+            <button
+              onClick={() => setActiveGroup('birds')}
+              className={`px-4 py-2 rounded-lg transition-colors duration-150 ease-in-out
+                          ${activeGroup === 'birds' ? 
+                            'bg-theme-red text-white hc:bg-yellow-400 hc:text-black hc:border hc:border-yellow-600 cb:bg-theme-beige cb:text-black' : 
+                            'bg-gray-200 hover:bg-gray-300 hc:bg-gray-700 hc:text-white hc:hover:bg-gray-600'}`}
+            >
+              Birds
+            </button>
+            <button
+              onClick={() => setActiveGroup('mammals')}
+              className={`px-4 py-2 rounded-lg transition-colors duration-150 ease-in-out
+                          ${activeGroup === 'mammals' ? 
+                            'bg-theme-red text-white hc:bg-yellow-400 hc:text-black hc:border hc:border-yellow-600 cb:bg-theme-beige cb:text-black' : 
+                            'bg-gray-200 hover:bg-gray-300 hc:bg-gray-700 hc:text-white hc:hover:bg-gray-600'}`}
+            >
+              Mammals
+            </button>
+            <button
+              onClick={() => setActiveGroup('fish')}
+              className={`px-4 py-2 rounded-lg transition-colors duration-150 ease-in-out
+                          ${activeGroup === 'fish' ? 
+                            'bg-theme-red text-white hc:bg-yellow-400 hc:text-black hc:border hc:border-yellow-600 cb:bg-theme-beige cb:text-black' : 
+                            'bg-gray-200 hover:bg-gray-300 hc:bg-gray-700 hc:text-white hc:hover:bg-gray-600'}`}
+            >
+              Fish
+            </button>
+          </div>
+        </div>
+
         {/* SARA Status Chart */}
-        <div className="bg-white p-6 rounded-lg shadow-md">
+        <div className="bg-white p-6 rounded-lg shadow-md hc:bg-black hc:border hc:border-gray-700">
           <h2 className="text-xl font-semibold mb-4">Species at Risk Status Distribution</h2>
-          <div className="border border-gray-200 rounded-md p-4 bg-gray-50">
+          <div className="border border-gray-200 rounded-md p-4 bg-gray-50 hc:bg-gray-900 hc:border-gray-700">
             <BarChart
               data={prepareStatusData()}
               bars={[
@@ -155,9 +167,11 @@ const HomePage: React.FC = () => {
               xAxisLabel="Year"
               yAxisLabel="Number of Species"
               stacked={true}
+              isHighContrastMode={isHighContrastMode}
+              isColorBlindMode={isColorBlindMode}
             />
           </div>
-          <div className="mt-4 text-sm text-gray-600">
+          <div className="mt-4 text-sm text-gray-600 hc:text-gray-300">
             <p>This chart shows the distribution of species by SARA status over time.</p>
             <p>The data reveals increasing numbers of species being added to the at-risk categories.</p>
           </div>
