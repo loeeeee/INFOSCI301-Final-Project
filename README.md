@@ -1,4 +1,4 @@
-# ![Project Icon](./app/public/logo.ico) Canadian Vertebrate Species at Risk: Integrating Population Trends and Conservation Status 🍁📊
+# ![Project Icon](./src/frontend/public/logo.ico) Canadian Vertebrate Species at Risk: Integrating Population Trends and Conservation Status 🍁📊
 
 ## Deliverables
 
@@ -46,10 +46,12 @@
   - [Navigation Instructions](#navigation-instructions)
     - [Frontend Application (`/app`)](#frontend-application-app)
     - [Data Processing (`/data processing`)](#data-processing-data-processing)
+      - [Data Processing Setup](#data-processing-setup)
     - [Static Assets (`/static`)](#static-assets-static)
+    - [Documentation (`/docs`)](#documentation-docs)
     - [Getting Started](#getting-started)
       - [Frontend Setup](#frontend-setup)
-      - [Data Processing Setup](#data-processing-setup)
+      - [Data Processing Setup](#data-processing-setup-1)
     - [Key Resources](#key-resources)
       - [Code for Simulations and Visualizations](#code-for-simulations-and-visualizations)
       - [Sample Datasets](#sample-datasets)
