@@ -1,5 +1,7 @@
 # ![Project Icon](./app/public/logo.ico) Canadian Vertebrate Species at Risk: Integrating Population Trends and Conservation Status 🍁📊
 
+## Deliverables
+
 <p align="center">
   <a href="https://guthib.lbi.icu/">
     <img src="./static/logo.png" width=50% height=50%>
@@ -8,7 +10,7 @@
 
 <p align="center">
   <a href="https://guthib.lbi.icu/">
-    <img src="./static/demo.gif">
+    <img src="./static/demo_website.gif">
   </a>
 </p>
 
@@ -21,16 +23,7 @@
 
 </div>
 
-
-<div align="center">
-
-|        Life Below Water        |            Life On Land         |
-|:-------------------------:|:-------------------------:|
-| <a href="https://sdgs.un.org/goals/goal14">  <img src="./static/sdg_14.gif" width=50% height=50%> </a> | <a href="https://sdgs.un.org/goals/goal15"> <img src="./static/sdg_15.gif" width=50% height=50%>  </a>|
-
-</div>
-
-
+## Table of Content
 
 ## Project Integrity
 
@@ -83,13 +76,23 @@ Python 🦀, TypeScript ☕, React ✌️, and Cline 🥺
 <br>
 </details>
 
-## Overview
+## Project Information
 
 **Primary Research Question:**
 
 > How have population trends of Canadian vertebrate species correlated with their conservation status over time, and what visualization techniques can best communicate these relationships to conservation policymakers and wildlife managers?
 
-## Key Goals & Features
+### Contribution to SDGs
+
+<div align="center">
+
+|        Life Below Water        |            Life On Land         |
+|:-------------------------:|:-------------------------:|
+| <a href="https://sdgs.un.org/goals/goal14">  <img src="./static/sdg_14.gif" width=50% height=50%> </a> | <a href="https://sdgs.un.org/goals/goal15"> <img src="./static/sdg_15.gif" width=50% height=50%>  </a>|
+
+</div>
+
+### Key Goals & Features
 
 - **Integrate Data:** Combine comprehensive species-at-risk details (CAN-SAR) with long-term population trend data (CSI).
 - **Correlate Status & Trends:** Analyze how official SARA designations (Special Concern, Threatened, Endangered) align with observed population changes since 1970.
@@ -98,7 +101,7 @@ Python 🦀, TypeScript ☕, React ✌️, and Cline 🥺
 - **Effective Communication:** Develop interactive visualizations tailored to policymakers and wildlife managers, leveraging affective visualization principles to enhance understanding and engagement.
 - **Open Science:** Ensure reproducibility by adhering to FAIR principles, using structured data (CSV), and hosting analysis code and visualizations openly on GitHub.
 
-## 📊 Data Sources
+### 📊 Data Sources
 
 1.  **CAN-SAR Database: Canadian Species at Risk Information**
 
@@ -113,7 +116,7 @@ Python 🦀, TypeScript ☕, React ✌️, and Cline 🥺
     - **Dataset Link/Info:** [https://open.canada.ca/data/en/dataset/038cdb2a-bff0-4733-9f07-3b8cc6588e08](https://open.canada.ca/data/en/dataset/038cdb2a-bff0-4733-9f07-3b8cc6588e08)
     - **Format:** CSV.
 
-## Methodology & Approach
+### Methodology & Approach
 
 This project integrates the two datasets described above to perform a correlational analysis between conservation status designations and population trajectories. Our approach involves:
 
@@ -124,60 +127,12 @@ This project integrates the two datasets described above to perform a correlatio
 
 <!-- The analysis code and visualization techniques are documented and available in this repository to ensure reproducibility. -->
 
-## Visualization Website
+### Intellectual and Professional Growth
 
-Explore the interactive visualizations developed for this project:
-
-🔗 **[Canada Species Visualization App (Demo)](https://canada-visualization.streamlit.app)**
-
-This Streamlit application allows users to explore the integrated data, view species profiles, and understand the relationship between conservation status and population trends across Canada.
-
-<!-- *(Optional: Insert a screenshot or GIF of the visualization dashboard here)* -->
-
-<!-- ![Sample Visualization](https://user-images.githubusercontent.com/your-username/your-repo/blob/main/path/to/your/sample_visualization.png)  Replace with actual path to an image in your repo -->
-
-## 🚀 Technology Stack
-
-- **Data Analysis:** Python
-- **Visualization:** Streamlit, Plotly
-
-## 📁 Project Structure
-
-<!-- *   `/data`: Contains the raw or processed datasets (if included directly). -->
-<!-- *   `/notebooks` or `/scripts`: Contains Jupyter notebooks or Python scripts for data cleaning, integration, and analysis. -->
-
-- `/mock_visualization`: Contains the Streamlit application code.
-- `/static`: contains demo images
-- `README.md`: This file.
-  <!-- *   `requirements.txt`: List of Python dependencies. -->
-  <!-- *   `Flowchart.png` (or similar): Visual representation of the project pipeline/innovation flowchart. *(Located inside the repo as per report)* -->
-
-## Innovation Flowchart
+### Innovation Flowchart
 
 ![Innovation Flowchart](./static/innovation_flowchart.png)
 
-## Mock Visualization Start
-
-```bash
-# Create and navigate to project directory
-mkdir endangered_species_viz
-cd endangered_species_viz
-
-# Create virtual environment
-python -m venv .venv
-
-# Activate virtual environment
-source .venv/bin/activate
-
-# Install required packages
-pip install -r requirements.txt
-
-# Activate venv
-source .venv/bin/activate
-
-# Run the Streamlit app
-streamlit run app.py
-```
 
 ## Data Processing Replication (Optional)
 
@@ -226,7 +181,7 @@ streamlit run app.py
       python data_process.py
       ```
 
-## Data Source Reference
+## Reference
 
 ### CAN-SAR
 
