@@ -108,13 +108,103 @@ Project management and collaboration were demonstrated through team coordination
 
 Professionally, this work involved adhering to academic integrity, implementing open science principles, and gaining experience with real-world data challenges. Innovation was shown in developing novel visualization approaches and integrating multiple data sources. Overall, the project reflects a mature approach to complex data handling, visualization, and scientific communication.
 
-### Navigation Instructions
+## Navigation Instructions
 
-### Innovation Flowchart
+```
+├── app/                    # Main application directory
+├── backend/               # Backend development files
+├── data processing/       # Data processing scripts and datasets
+├── mock_visualization/    # Visualization prototypes
+├── static/               # Static assets and documentation
+└── README.md             # Main project documentation
+```
 
-<p align="center">
-  <img src="./static/innovation_flowchart.png" width=50% height=50%>
-</p>
+### Frontend Application (`/app`)
+
+The main application code is located in the `/app` directory:
+- `/app/src`: Contains the main source code for the frontend application
+- `/app/public`: Static assets for the web application
+- `/app/docs`: Documentation files
+- Configuration files:
+  - `package.json`: Frontend dependencies and scripts
+  - `tsconfig.json`: TypeScript configuration
+  - `vite.config.ts`: Vite build configuration
+  - `tailwind.config.js`: Tailwind CSS configuration
+
+### Data Processing (`/data processing`)
+
+The data processing pipeline and related files are located in the `/data processing` directory:
+- `data_process.py`: Main data processing script
+- `requirements.txt`: Python dependencies for data processing
+- Sample datasets:
+  - `CAN-SAR_database.csv`: Raw database file
+  - `processed_CAN-SAR_vertebrates_1970-2018_async.csv`: Processed dataset
+  - `canada.csv`: Geographic data
+
+### Static Assets (`/static`)
+
+The `/static` directory contains various static assets and documentation:
+- `demo.gif`: Demo animation
+- `download.gif`: Download animation
+- `logo.png`: Project logo
+- `innovation_flowchart.png`: Project flowchart
+- `poster.pdf`: Project poster
+- `report.pdf`: Project report
+
+### Getting Started
+
+#### Frontend Setup
+
+1. Navigate to the `/app` directory
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+#### Data Processing Setup
+
+1. Navigate to the `/data processing` directory
+2. Create a Python virtual environment (recommended)
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Key Resources
+
+#### Code for Simulations and Visualizations
+
+- Frontend visualization code: `/app/src`
+- Data processing scripts: `/data processing/data_process.py`
+
+#### Sample Datasets
+
+- Raw data: `/data processing/CAN-SAR_database.csv`
+- Processed data: `/data processing/processed_CAN-SAR_vertebrates_1970-2018_async.csv`
+- Geographic data: `/data processing/canada.csv`
+
+#### Documentation
+
+- Frontend dependencies: `/app/package.json`
+- Data processing dependencies: `/data processing/requirements.txt`
+- Project documentation: `/app/docs`
+
+#### Visualizations and Figures
+
+- Demo animation: `/static/demo_website.gif`
+- Project flowchart: `/static/innovation_flowchart.png`
+- Project poster: `/static/poster.pdf`
+- Project report: `/static/report.pdf`
+
+### Notes
+- The project uses TypeScript for the frontend application
+- Data processing is done using Python
+- The frontend is built with Vite and uses Tailwind CSS for styling
+- Make sure to check the respective README files in each directory for more specific information 
 
 ## Reference
 
@@ -150,65 +240,22 @@ Professionally, this work involved adhering to academic integrity, implementing 
 }
 ```
 
-## Data Processing Replication (Optional)
-
-1.  **Prerequisites:**
-
-    - Python 3.7+ installed.
-    - The `CAN-SAR_database.csv` file in your project directory.
-
-2.  **Create & Activate Virtual Environment:**
-
-    ```bash
-    # Create
-    python -m venv .venv
-    # Activate (Windows CMD/PS)
-    .\.venv\Scripts\activate
-    # Activate (macOS/Linux)
-    source .venv/bin/activate
-    ```
-
-3.  **Install Packages:**
-
-    - Create `requirements.txt` with:
-      ```text
-      pandas
-      openai
-      python-dotenv
-      httpx
-      ```
-    - Install:
-      ```bash
-      pip install -r requirements.txt
-      ```
-
-4.  **Set Up API Key:**
-
-    - Create a `.env` file in the project directory.
-    - Add your OpenRouter key:
-      ```
-      OPENROUTER_API_KEY='your-openrouter-key-here'
-      ```
-
-5.  **Run the Script:**
-    - Ensure your virtual environment is active.
-    - Run the script:
-      ```bash
-      python data_process.py
-      ```
-
-
 ## Appendix
 
+### Innovation Flowchart
 
-### Key Goals & Features
+<p align="center">
+  <img src="./static/innovation_flowchart.png" width=50% height=50%>
+</p>
 
+<!-- ### Key Goals & Features -->
+<!-- 
 - **Integrate Data:** Combine comprehensive species-at-risk details (CAN-SAR) with long-term population trend data (CSI).
 - **Correlate Status & Trends:** Analyze how official SARA designations (Special Concern, Threatened, Endangered) align with observed population changes since 1970.
 - **Identify Delays:** Investigate potential time lags between population declines and subsequent conservation status changes.
 - **Examine Differential Outcomes:** Explore variations in trends across different taxonomic groups (mammals, fish, etc.) and ecosystems (terrestrial, freshwater, marine).
 - **Effective Communication:** Develop interactive visualizations tailored to policymakers and wildlife managers, leveraging affective visualization principles to enhance understanding and engagement.
-- **Open Science:** Ensure reproducibility by adhering to FAIR principles, using structured data (CSV), and hosting analysis code and visualizations openly on GitHub.
+- **Open Science:** Ensure reproducibility by adhering to FAIR principles, using structured data (CSV), and hosting analysis code and visualizations openly on GitHub. -->
 
 <!-- 
 ### 📊 Data Sources
