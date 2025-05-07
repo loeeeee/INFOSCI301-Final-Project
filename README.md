@@ -7,11 +7,13 @@
 </p>
 
 
-<p align="center">
+<div align="center">
+
 |           Report          |          Poster           |
 |:-------------------------:|:-------------------------:|
 |![](./static/download.gif) | ![](./static/download.gif)|
-</p>
+
+</div>
 
 ## Project Integrity
 
