@@ -21,6 +21,17 @@
 
 </div>
 
+
+<div align="center">
+
+|                |                     |
+|:-------------------------:|:-------------------------:|
+| <a href="https://sdgs.un.org/goals/goal14">  ![](./static/sdg_14.gif) </a> | <a href="https://sdgs.un.org/goals/goal15">  ![](./static/sdg_15.gif) </a>|
+
+</div>
+
+
+
 ## Project Integrity
 
 ### Disclaimer
