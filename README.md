@@ -38,7 +38,7 @@ The authors have no competing interests.
 
 Major Tools:
 
-Python 🦀, TypeScript ☕, React ✌️, and Cline 🤖
+Python 🦀, TypeScript ☕, React ✌️, and Cline 🥺
 
 <details>
 <summary>The Longer List:</summary>
