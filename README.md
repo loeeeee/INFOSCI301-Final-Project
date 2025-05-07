@@ -2,13 +2,13 @@
 
 <p align="center">
   <a href="https://guthib.lbi.icu/">
-    <img src="./static/demo.gif">
+    <img src="./static/logo.png" width=50% height=50%>
   </a>
 </p>
 
 <p align="center">
   <a href="https://guthib.lbi.icu/">
-    <img src="./static/logo.png" width=50% height=50%>
+    <img src="./static/demo.gif">
   </a>
 </p>
 
