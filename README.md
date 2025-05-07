@@ -1,9 +1,13 @@
 # ![Project Icon](./app/public/logo.ico) Canadian Vertebrate Species at Risk: Integrating Population Trends and Conservation Status 🍁📊
 
-[Demo Web Page](https://guthib.lbi.icu/)
+<p align="center">
+  <a href="https://guthib.lbi.icu/">
+    <img src="./static/demo.gif">
+  </a>
+</p>
 
 <p align="center">
-    <img src="./static/logo.png" width=50% height=50%>
+  <img src="./static/logo.png" width=50% height=50%>
 </p>
 
 
