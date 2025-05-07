@@ -1,5 +1,7 @@
 # ![Project Icon](./app/public/logo.ico) Canadian Vertebrate Species at Risk: Integrating Population Trends and Conservation Status 🍁📊
 
+## Deliverables
+
 <p align="center">
   <a href="https://guthib.lbi.icu/">
     <img src="./static/logo.png" width=50% height=50%>
@@ -8,7 +10,7 @@
 
 <p align="center">
   <a href="https://guthib.lbi.icu/">
-    <img src="./static/demo.gif">
+    <img src="./static/demo_website.gif">
   </a>
 </p>
 
@@ -20,6 +22,45 @@
 | <a href="static/report.pdf">  ![](./static/download.gif) </a> | <a href="static/poster.pdf">  ![](./static/download.gif) </a>|
 
 </div>
+
+### Demo Video
+
+> This is a place holder
+
+## Table of Content
+
+- [ Canadian Vertebrate Species at Risk: Integrating Population Trends and Conservation Status 🍁📊](#-canadian-vertebrate-species-at-risk-integrating-population-trends-and-conservation-status-)
+  - [Deliverables](#deliverables)
+    - [Demo Video](#demo-video)
+  - [Table of Content](#table-of-content)
+  - [Project Integrity](#project-integrity)
+    - [Disclaimer](#disclaimer)
+    - [Acknowledgements](#acknowledgements)
+    - [Contribution Statement](#contribution-statement)
+    - [Competing Interests](#competing-interests)
+    - [Non-exhaust list of tools used](#non-exhaust-list-of-tools-used)
+  - [Project Information](#project-information)
+    - [Primary Research Question](#primary-research-question)
+    - [Contribution to SDGs](#contribution-to-sdgs)
+    - [Intellectual and Professional Growth](#intellectual-and-professional-growth)
+  - [Navigation Instructions](#navigation-instructions)
+    - [Frontend Application (`/app`)](#frontend-application-app)
+    - [Data Processing (`/data processing`)](#data-processing-data-processing)
+    - [Static Assets (`/static`)](#static-assets-static)
+    - [Getting Started](#getting-started)
+      - [Frontend Setup](#frontend-setup)
+      - [Data Processing Setup](#data-processing-setup)
+    - [Key Resources](#key-resources)
+      - [Code for Simulations and Visualizations](#code-for-simulations-and-visualizations)
+      - [Sample Datasets](#sample-datasets)
+      - [Documentation](#documentation)
+      - [Visualizations and Figures](#visualizations-and-figures)
+    - [Notes](#notes)
+  - [Reference](#reference)
+    - [CAN-SAR](#can-sar)
+    - [Canadian species index](#canadian-species-index)
+  - [Appendix](#appendix)
+    - [Innovation Flowchart](#innovation-flowchart)
 
 ## Project Integrity
 
@@ -72,150 +113,141 @@ Python 🦀, TypeScript ☕, React ✌️, and Cline 🥺
 <br>
 </details>
 
-## Overview
+## Project Information
 
-**Primary Research Question:**
+### Primary Research Question
 
-> How have population trends of Canadian vertebrate species correlated with their conservation status over time, and what visualization techniques can best communicate these relationships to conservation policymakers and wildlife managers?
+How have population trends of Canadian vertebrate species correlated with their conservation status over time, and what visualization techniques can best communicate these relationships to conservation policymakers and wildlife managers?
 
-## Key Goals & Features
+### Contribution to SDGs
 
-- **Integrate Data:** Combine comprehensive species-at-risk details (CAN-SAR) with long-term population trend data (CSI).
-- **Correlate Status & Trends:** Analyze how official SARA designations (Special Concern, Threatened, Endangered) align with observed population changes since 1970.
-- **Identify Delays:** Investigate potential time lags between population declines and subsequent conservation status changes.
-- **Examine Differential Outcomes:** Explore variations in trends across different taxonomic groups (mammals, fish, etc.) and ecosystems (terrestrial, freshwater, marine).
-- **Effective Communication:** Develop interactive visualizations tailored to policymakers and wildlife managers, leveraging affective visualization principles to enhance understanding and engagement.
-- **Open Science:** Ensure reproducibility by adhering to FAIR principles, using structured data (CSV), and hosting analysis code and visualizations openly on GitHub.
+<div align="center">
 
-## 📊 Data Sources
+|        Life Below Water        |            Life On Land         |
+|:-------------------------:|:-------------------------:|
+| <a href="https://sdgs.un.org/goals/goal14">  <img src="./static/sdg_14.gif" width=50% height=50%> </a> | <a href="https://sdgs.un.org/goals/goal15"> <img src="./static/sdg_15.gif" width=50% height=50%>  </a>|
 
-1.  **CAN-SAR Database: Canadian Species at Risk Information**
+</div>
 
-    - **Content:** Information on Canada's legally protected species under the Species at Risk Act (SARA), including listing status (Special Concern, Threatened, Endangered as of March 2021), listing dates, threats, recovery actions, and biological attributes.
-    - **Source:** Naujokaitis-Lewis, I., Endicott, S., & Guezen, J. M. (2022). CAN-SAR: A database of Canadian species at risk information. _Scientific Data_, 9(1), 289.
-    - **Dataset Link/Info:** [https://www.nature.com/articles/s41597-022-01381-8](https://www.nature.com/articles/s41597-022-01381-8)
-    - **Format:** Structured CSV.
+### Intellectual and Professional Growth
 
-2.  **Canadian Species Index (CSI) Dataset**
-    - **Content:** Complementary population abundance time-series data for monitored Canadian native vertebrate species since 1970. Tracks changes in population sizes, providing an integrated measure similar to the global Living Planet Index. Covers >50% of native vertebrates.
-    - **Source:** Environment and Climate Change Canada (ECCC). (2023). Canadian species index. Canadian Environmental Sustainability Indicators program.
-    - **Dataset Link/Info:** [https://open.canada.ca/data/en/dataset/038cdb2a-bff0-4733-9f07-3b8cc6588e08](https://open.canada.ca/data/en/dataset/038cdb2a-bff0-4733-9f07-3b8cc6588e08)
-    - **Format:** CSV.
+This project showcases substantial intellectual and professional development. Key technical advancements include advanced Python data processing, full-stack development with TypeScript, React, and Python, database management using SQLAlchemy, and cloud deployment via CloudFlare Worker.
 
-## Methodology & Approach
+Data science growth is evident through complex data integration (CAN-SAR and CSI datasets), statistical analysis of population trends, and the implementation of FAIR/CARE principles. The project also honed research skills, including formulating research questions, conducting literature reviews, and performing data validation.
 
-This project integrates the two datasets described above to perform a correlational analysis between conservation status designations and population trajectories. Our approach involves:
+Project management and collaboration were demonstrated through team coordination, planning, and documentation. Domain knowledge in Canadian wildlife conservation, species at risk, and population dynamics was significantly expanded. Furthermore, the project enhanced communication skills through effective data visualization, interactive dashboard creation, and scientific writing.
 
-1.  **Data Sourcing & Preprocessing:** Identifying, cleaning, and structuring data from CAN-SAR and CSI according to FAIR/CARE principles.
-2.  **Data Integration:** Merging the datasets based on species identifiers to link status information with population trends.
-3.  **Analysis:** Statistically examining the correlation between status changes and population trends, identifying potential leads or lags, and comparing outcomes across groups.
-4.  **Visualization:** Developing interactive visualizations using techniques designed for clarity and impact, including principles of affective visualization to better communicate urgency and ecological realities to the target audience.
+Professionally, this work involved adhering to academic integrity, implementing open science principles, and gaining experience with real-world data challenges. Innovation was shown in developing novel visualization approaches and integrating multiple data sources. Overall, the project reflects a mature approach to complex data handling, visualization, and scientific communication.
 
-<!-- The analysis code and visualization techniques are documented and available in this repository to ensure reproducibility. -->
+## Navigation Instructions
 
-## Visualization Website
-
-Explore the interactive visualizations developed for this project:
-
-🔗 **[Canada Species Visualization App (Demo)](https://canada-visualization.streamlit.app)**
-
-This Streamlit application allows users to explore the integrated data, view species profiles, and understand the relationship between conservation status and population trends across Canada.
-
-<!-- *(Optional: Insert a screenshot or GIF of the visualization dashboard here)* -->
-
-<!-- ![Sample Visualization](https://user-images.githubusercontent.com/your-username/your-repo/blob/main/path/to/your/sample_visualization.png)  Replace with actual path to an image in your repo -->
-
-## 🚀 Technology Stack
-
-- **Data Analysis:** Python
-- **Visualization:** Streamlit, Plotly
-
-## 📁 Project Structure
-
-<!-- *   `/data`: Contains the raw or processed datasets (if included directly). -->
-<!-- *   `/notebooks` or `/scripts`: Contains Jupyter notebooks or Python scripts for data cleaning, integration, and analysis. -->
-
-- `/mock_visualization`: Contains the Streamlit application code.
-- `/static`: contains demo images
-- `README.md`: This file.
-  <!-- *   `requirements.txt`: List of Python dependencies. -->
-  <!-- *   `Flowchart.png` (or similar): Visual representation of the project pipeline/innovation flowchart. *(Located inside the repo as per report)* -->
-
-## Innovation Flowchart
-
-![Innovation Flowchart](./static/innovation_flowchart.png)
-
-## Mock Visualization Start
-
-```bash
-# Create and navigate to project directory
-mkdir endangered_species_viz
-cd endangered_species_viz
-
-# Create virtual environment
-python -m venv .venv
-
-# Activate virtual environment
-source .venv/bin/activate
-
-# Install required packages
-pip install -r requirements.txt
-
-# Activate venv
-source .venv/bin/activate
-
-# Run the Streamlit app
-streamlit run app.py
+```
+├── app/                    # Main application directory
+├── backend/               # Backend development files
+├── data processing/       # Data processing scripts and datasets
+├── mock_visualization/    # Visualization prototypes
+├── static/               # Static assets and documentation
+├── docs/                 # Detailed documentation
+└── README.md             # Main project documentation
 ```
 
-## Data Processing Replication (Optional)
+### Frontend Application (`/app`)
 
-1.  **Prerequisites:**
+The main application code is located in the `/app` directory:
+- `/app/src`: Contains the main source code for the frontend application
+- `/app/public`: Static assets for the web application
+- `/app/docs`: Documentation files
+- Configuration files:
+  - `package.json`: Frontend dependencies and scripts
+  - `tsconfig.json`: TypeScript configuration
+  - `vite.config.ts`: Vite build configuration
+  - `tailwind.config.js`: Tailwind CSS configuration
 
-    - Python 3.7+ installed.
-    - The `CAN-SAR_database.csv` file in your project directory.
+### Data Processing (`/data processing`)
 
-2.  **Create & Activate Virtual Environment:**
+The data processing pipeline and related files are located in the `/data processing` directory:
+- `data_process.py`: Main data processing script
+- `requirements.txt`: Python dependencies for data processing
+- Sample datasets:
+  - `CAN-SAR_database.csv`: Raw database file
+  - `processed_CAN-SAR_vertebrates_1970-2018_async.csv`: Processed dataset
+  - `canada.csv`: Geographic data
 
-    ```bash
-    # Create
-    python -m venv .venv
-    # Activate (Windows CMD/PS)
-    .\.venv\Scripts\activate
-    # Activate (macOS/Linux)
-    source .venv/bin/activate
-    ```
+### Static Assets (`/static`)
 
-3.  **Install Packages:**
+The `/static` directory contains various static assets and documentation:
+- `demo.gif`: Demo animation
+- `download.gif`: Download animation
+- `logo.png`: Project logo
+- `innovation_flowchart.png`: Project flowchart
+- `poster.pdf`: Project poster
+- `report.pdf`: Project report
 
-    - Create `requirements.txt` with:
-      ```text
-      pandas
-      openai
-      python-dotenv
-      httpx
-      ```
-    - Install:
-      ```bash
-      pip install -r requirements.txt
-      ```
+### Documentation (`/docs`)
 
-4.  **Set Up API Key:**
+The `/docs` directory contains detailed documentation for different aspects of the project:
+- [Setup Guide](./docs/setup_guide.md): Comprehensive setup instructions
+- [Frontend Documentation](./docs/frontend.md): Frontend application details
+- [Backend Documentation](./docs/backend.md): Backend API and services
+- [Data Processing Documentation](./docs/data_processing.md): Data pipeline details
+- [API Documentation](./docs/api.md): API endpoints and usage
 
-    - Create a `.env` file in the project directory.
-    - Add your OpenRouter key:
-      ```
-      OPENROUTER_API_KEY='your-openrouter-key-here'
-      ```
+### Getting Started
 
-5.  **Run the Script:**
-    - Ensure your virtual environment is active.
-    - Run the script:
-      ```bash
-      python data_process.py
-      ```
+#### Frontend Setup
 
-## Data Source Reference
+1. Navigate to the `/app` directory
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+#### Data Processing Setup
+
+1. Navigate to the `/data processing` directory
+2. Create a Python virtual environment (recommended)
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Key Resources
+
+#### Code for Simulations and Visualizations
+
+- Frontend visualization code: `/app/src`
+- Data processing scripts: `/data processing/data_process.py`
+
+#### Sample Datasets
+
+- Raw data: `/data processing/CAN-SAR_database.csv`
+- Processed data: `/data processing/processed_CAN-SAR_vertebrates_1970-2018_async.csv`
+- Geographic data: `/data processing/canada.csv`
+
+#### Documentation
+
+- Frontend dependencies: `/app/package.json`
+- Data processing dependencies: `/data processing/requirements.txt`
+- Project documentation: `/docs`
+
+#### Visualizations and Figures
+
+- Demo animation: `/static/demo_website.gif`
+- Project flowchart: `/static/innovation_flowchart.png`
+- Project poster: `/static/poster.pdf`
+- Project report: `/static/report.pdf`
+
+### Notes
+- The project uses TypeScript for the frontend application
+- Data processing is done using Python
+- The frontend is built with Vite and uses Tailwind CSS for styling
+- Make sure to check the respective README files in each directory for more specific information 
+
+## Reference
 
 ### CAN-SAR
 
@@ -248,3 +280,11 @@ streamlit run app.py
 	urldate = {2025-04-22},
 }
 ```
+
+## Appendix
+
+### Innovation Flowchart
+
+<p align="center">
+  <img src="./static/innovation_flowchart.png" width=50% height=50%>
+</p>
