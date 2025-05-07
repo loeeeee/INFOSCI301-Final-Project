@@ -166,12 +166,49 @@ The main application code is located in the `/app` directory:
 ### Data Processing (`/data processing`)
 
 The data processing pipeline and related files are located in the `/data processing` directory:
-- `data_process.py`: Main data processing script
-- `requirements.txt`: Python dependencies for data processing
+- `data_process.py`: Main data processing script that:
+  - Processes the CAN-SAR database
+  - Filters data by year (1970-2018)
+  - Categorizes species into birds, mammals, and fish using OpenRouter API
+  - Generates a processed dataset with species categories
+- `requirements.txt`: Python dependencies for data processing:
+  - pandas>=2.0.0: For data manipulation and analysis
+  - python-dotenv>=1.0.0: For loading environment variables
+  - openai>=1.0.0: For OpenRouter API integration
+  - tabulate>=0.9.0: For pretty-printing DataFrames
 - Sample datasets:
   - `CAN-SAR_database.csv`: Raw database file
   - `processed_CAN-SAR_vertebrates_1970-2018_async.csv`: Processed dataset
   - `canada.csv`: Geographic data
+
+#### Data Processing Setup
+
+1. Navigate to the `/data processing` directory
+2. Create a Python virtual environment (recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Create a `.env` file in the project root with your OpenRouter API key:
+   ```
+   OPENROUTER_API_KEY=your_api_key_here
+   ```
+5. Run the data processing script:
+   ```bash
+   python data_process.py
+   ```
+
+The script will:
+- Load and validate the input data
+- Filter records by year (1970-2018)
+- Categorize species using OpenRouter API
+- Save the processed data to `processed_CAN-SAR_vertebrates_1970-2018_async.csv`
+
+Note: The script uses asynchronous processing to handle API calls efficiently and includes error handling for robustness.
 
 ### Static Assets (`/static`)
 
@@ -209,11 +246,31 @@ The `/docs` directory contains detailed documentation for different aspects of t
 #### Data Processing Setup
 
 1. Navigate to the `/data processing` directory
-2. Create a Python virtual environment (recommended)
+2. Create a Python virtual environment (recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
+4. Create a `.env` file in the project root with your OpenRouter API key:
+   ```
+   OPENROUTER_API_KEY=your_api_key_here
+   ```
+5. Run the data processing script:
+   ```bash
+   python data_process.py
+   ```
+
+The script will:
+- Load and validate the input data
+- Filter records by year (1970-2018)
+- Categorize species using OpenRouter API
+- Save the processed data to `processed_CAN-SAR_vertebrates_1970-2018_async.csv`
+
+Note: The script uses asynchronous processing to handle API calls efficiently and includes error handling for robustness.
 
 ### Key Resources
 

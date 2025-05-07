@@ -9,14 +9,18 @@ load_dotenv()
 print("Attempting to load environment variables from .env file...")
 
 # --- Configuration ---
-csv_file_path = 'CAN-SAR_database.csv'
+# Get the project root directory (parent of src directory)
+project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+data_dir = os.path.join(project_root, 'data')
+
+csv_file_path = os.path.join(data_dir, 'CAN-SAR_database.csv')
 year_column = 'year_published'
 species_column = 'common_name' # Using common_name as requested
 min_year = 1970
 max_year = 2018
 target_categories = ['bird', 'mammal', 'fish']
 # Define the output filename
-output_csv_file = 'processed_CAN-SAR_vertebrates_1970-2018_async.csv'
+output_csv_file = os.path.join(data_dir, 'processed_CAN-SAR_vertebrates_1970-2018_async.csv')
 batch_size = 50
 delay_between_batches = 2 # Seconds to wait between batches
 openrouter_model = "openai/gpt-4.1" 
@@ -208,7 +212,7 @@ if __name__ == "__main__":
         # --- Save the final DataFrame ---
         try:
             # Construct path relative to the script's directory
-            output_path = os.path.join(os.getcwd(), output_csv_file)
+            output_path = output_csv_file
             # Save to CSV, ensuring UTF-8 encoding for compatibility
             df_final_result.to_csv(output_path, index=False, encoding='utf-8')
             print(f"\nFinal processed data saved to '{output_path}'")
