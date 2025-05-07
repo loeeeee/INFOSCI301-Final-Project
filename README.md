@@ -11,7 +11,7 @@
 
 |           Report          |          Poster           |
 |:-------------------------:|:-------------------------:|
-|![](./static/download.gif) | ![](./static/download.gif)|
+| <a href="static/report.pdf">  ![](./static/download.gif) </a> | <a href="static/poster.pdf">  ![](./static/download.gif) </a>|
 
 </div>
 
