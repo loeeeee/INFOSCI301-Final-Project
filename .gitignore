@@ -178,3 +178,7 @@ cython_debug/
 Thumbs.db   # Windows thumbnail cache files
 *.swp       # Vim swap files
 *~          # Temporary files
+
+# Portfolio documentation (not for version control)
+docs/portfolio_function_flow.md
+docs/mindmap_draft.md
