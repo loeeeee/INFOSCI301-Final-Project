@@ -82,7 +82,7 @@ We extend special thanks to Professors David Schaaf and Dongping Liu for their i
 
 ### Contribution Statement
 
-**Jiesen Huang** led the design and implementation of the data visualizations, created prototype figures, selected visualization techniques, and contributed to the literature review.
+**Jiesen Huang** led the ideation, design and implementation of the data visualizations, configured backend, jsonfied the data, created prototype figures, selected visualization techniques, and contributed to the literature review.
 
 **Cody Qin** focused on data sourcing, cleaning, preprocessing, and integration scripting, as well as setting up the GitHub repository to ensure reproducibility.
 
